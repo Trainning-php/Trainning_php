@@ -5,9 +5,11 @@
 	class Login extends Db
 	{
 		
-		function __construct()
-		{
-			
+
+		public function SelectAdmin(){
+			$qr="SELECT * FROM admin";
+		  return mysqli_query($this->con,$qr);
 		}
+
 	}
  ?>

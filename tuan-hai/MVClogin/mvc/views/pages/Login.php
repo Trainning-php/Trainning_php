@@ -33,7 +33,11 @@
 			</div>
 		</div>
 	</div>
+<?php 
+// while ($row=mysqli_fetch_array($data["admin"])) {
 
+// }
+ ?>
 </div>
 
 </div>	

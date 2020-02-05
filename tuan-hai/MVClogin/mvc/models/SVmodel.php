@@ -1,14 +1,18 @@
 <?php 
 class SVmodel extends Db{
-	public function GetSV(){
-		return "maivantue";
-	}
-	public function Tong($a,$b){
-		return $a+$b;
-	}
+
 	public function DanhSachSV(){
-		$qr="SELECT * FROM SinhVien";
-		return mysqli_query($this->con,$qr);
+		
+		return $this->fetchAll('SinhVien');
 	}
+	function getInput($string){
+		return isset($_GET[$string]) ? $_GET[$string]:'';
+
+	}
+	public function DanhSachSVID(){
+		
+		return $this->fetchID('SinhVien',$id);
+	}
+
 }
  ?>
