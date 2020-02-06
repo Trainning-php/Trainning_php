@@ -1,3 +1,0 @@
-<b>
-	trang chu
-</b>
