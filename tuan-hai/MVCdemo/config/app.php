@@ -1,14 +1,10 @@
 <?php 
 	
-		if (file_exists('controller/' . $controllerName . '.php')) {
-		    include 'controller/' . $controllerName . '.php';
-		} else {
-		   include 'controller/home.php';
-		}
-		$controller = new $controllerName();
-		if (method_exists($controller, $action)) {
-		    $controller->$action();
-		} else {
-			
-		}
+		
+		$controller = isset($_GET['controller'])? $_GET['controller'].'controller' : 'home' ;
+		$action = isset($_GET['action'])?$_GET['action']: 'index' ;
+
+		require_once('./controller/home.php');
+		$usercontroller = new $controller();
+		$usercontroller-> $action();
 	 ?>

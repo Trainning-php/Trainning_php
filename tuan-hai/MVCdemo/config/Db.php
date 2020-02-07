@@ -29,6 +29,20 @@
             }
             return $data;
         }
+          public function fetchID($table , $id )
+        {
+            $sql = "SELECT * FROM {$table} WHERE id = $id ";
+            $result = mysqli_query($this->conn,$sql) or die("Lỗi  truy vấn fetchID " .mysqli_error($this->conn));
+            return mysqli_fetch_assoc($result);
+        }
+       	
+            public function delete ($table ,  $id )
+        {
+            $sql = "DELETE FROM {$table} WHERE id = $id ";
 
+            mysqli_query($this->conn,$sql) or die (" Lỗi Truy Vấn delete   --- " .mysqli_error($this->conn));
+            return mysqli_affected_rows($this->conn);
+        }
+           
 	}
  ?>

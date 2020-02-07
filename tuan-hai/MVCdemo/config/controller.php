@@ -9,5 +9,6 @@ class controller
 		require_once "./views/".$views.".php";
 		
 	}
+	
 }
  ?>
