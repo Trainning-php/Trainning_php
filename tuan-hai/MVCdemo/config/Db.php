@@ -43,6 +43,11 @@
             mysqli_query($this->conn,$sql) or die (" Lỗi Truy Vấn delete   --- " .mysqli_error($this->conn));
             return mysqli_affected_rows($this->conn);
         }
+        public function update($table,$username,$password,$id){
+                $sql="UPDATE {$table} SET username='$username',password='$password' WHERE id=$id";
+                mysqli_query($this->conn,$sql) or die ("Loi truy van update ".mysqli_error($this->conn));
+                  
+            }
            
 	}
- ?>
+ ?>       

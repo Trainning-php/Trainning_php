@@ -13,6 +13,6 @@
  		<label>Password</label>
  		<input type="password" name="password"  id="username" value="<?php echo $User['password'] ?>" >
  		<input type="submit" name="submit" value="SUBMIT">
- 	</form>
+	 	</form>
  </body>
  </html>

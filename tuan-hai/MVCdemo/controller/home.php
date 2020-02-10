@@ -1,6 +1,6 @@
 <?php 
 require_once 'config/controller.php';
-class homecontroller extends controller 
+class homeController extends controller 
 {   
     public $action;
 	public $modelUser;
@@ -29,9 +29,14 @@ class homecontroller extends controller
                 "username"=>$username,
                 "password"=>$password,
             ];
-        $update=$this->modelUser->UpdateUser('user',$data, array('id' => $id));
-        var_dump($update);
-        die;
+             $update=$this->modelUser->UpdateUser('user',$username,$password,$id);
+            if ($update=true) {
+                $this->views("Trangchu",[
+                    "pages"=>"DanhSachUser",
+                     "US"=>$this->modelUser->getUser('user')
+                ]);
+            }
+       
          }
         $this->views("Trangchu",[
             "pages"=>"edit",
@@ -39,33 +44,33 @@ class homecontroller extends controller
         ]);
 
     }
+    //delete
     public function delete(){
         $id=$_GET['id'];
         $this->views("Trangchu",[
             "pages"=>"delete",
-            "dl"=>$this->modeUser->DeleteUser('user',$id)
+            "dl"=>$this->modelUser->DeleteUser('user',$id)
         ]);
     }
+    //login
     public function login(){
-          $data=$this->modelUser->getUser('user');
+        $data=$this->modelUser->getUser('user');
         if (isset($_POST['login'])) {
             $username=isset($_POST['username'])? $_POST['username']:'';
             $password=isset($_POST['username'])? $_POST['password']:'';
         foreach ($data as $key ) {
             if ($key['username']===$username && $key['password']===$password)
              {
-               echo "thanh cong";
+               $this->views("",[]);
              }
              else{
                 $this->views("Trangchu",[
-                    "pages"=>"login"
-                ]);
+                    "pages"=>"login"]);
              }
             }
         }
-       
-
-       
+        $this->views("Trangchu",[
+                    "pages"=>"login"]);
     }
 }
 
