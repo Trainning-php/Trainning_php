@@ -1,0 +1,7 @@
+
+.container-fluid .input-group .input-group-append{
+	margin-bottom: 20px;
+}
+.container-fluid .input-group .input-group-append .form-control{
+	border: solid 1px blue;
+}
