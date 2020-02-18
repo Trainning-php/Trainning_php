@@ -20,6 +20,7 @@ class PDOquery extends ConnectPDO
 		$sth->execute();
 		$result   = $sth->fetchAll(PDO::FETCH_ASSOC);
 		return $result;
+		
 	}
 
 	public function search($keyword) {
@@ -28,7 +29,9 @@ class PDOquery extends ConnectPDO
 		$result->execute();
 		$data     = $result->fetchAll(PDO::FETCH_ASSOC);
 		return $data;
+
 		}
+
 	public function TotalPages(){
 		$limit         = 3;
 		$sql           = "$this->sqlQuery user ";
@@ -54,6 +57,7 @@ class PDOquery extends ConnectPDO
 
 	    return $results;
 	}
+
 	public function InsertData($data){
 		$query = "INSERT INTO admin (username,password) VALUES (?,?)";
 		$stm   = $this->conn->prepare($query);

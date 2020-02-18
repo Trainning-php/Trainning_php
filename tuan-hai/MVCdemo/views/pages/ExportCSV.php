@@ -1,13 +1,3 @@
-
-<div class="row">
-    <form action="" method="GET">
-        <label>Tim Kiem</label>
-        <input type="text" name="export" id="export">
-        <input type="hidden" name="controller" value="PDOhome">
-        <input type="hidden" name="action" value="ExportCSV">
-        <button type="submit"> Tim Kiem </button>
-    </form>
-</div>
 <div class="row">
     <div align="center">
         <table class="table">
@@ -20,7 +10,6 @@
                     <th scope="col">ADDRESS</th>
                 </tr>
             </thead>
-            <?php if (isset($_GET['export'])): ?>
             <?php $id=1;foreach ($data["DATA"] as $key): ?>
                 <tbody>
                     <tr>
@@ -40,18 +29,9 @@
                             <?php echo $key['address'] ?>
                         </td>
                     </tr>
-                    <!-- <?php  if(isset($_GET["export"])) {
-                        $DT  = $data;
-                                    $openfile = fopen("DataSearch.csv","w")or die("Unable to open file!");
-                                    fputcsv($openfile , array('ID','USERNAME','PASSWORD','ADDRESS'));
-                                   while ($DT) {
-                                    fputcsv($openfile,$DT);
-                                   }
-                                     fclose($openfile);
-                        } ?> -->
+                     
                 </tbody>
                 <?php endforeach ?>
-                <?php endif ?>
         </table>
         <div>
             <form action="" method="POST" >
@@ -62,12 +42,4 @@
         </div>
     </div>  
 </div>
-  <?php  if(isset($_GET["export"])) {
-    $DT  = $data;
-    $openfile = fopen("DataSearch.csv","w")or die("Unable to open file!");
-    fputcsv($openfile , array('ID','USERNAME','PASSWORD','ADDRESS'));
-        while ($DT) {
-           // fputcsv($openfile,$DT);
-            }
-        fclose($openfile);
-} ?>
+ 

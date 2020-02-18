@@ -1,12 +1,19 @@
 <div class="row">
     <form action="" method="GET">
         <label>Tim Kiem</label>
-        <input type="text" name="search" id="search">
+        <input type="text" name="search" id="search"
+        value="<?php if (isset($_GET['search'])) {
+            echo($_GET['search']);
+         }?>">
         <input type="hidden" name="controller" value="PDOhome">
-        <input type="hidden" name="action" value="search">
-        <button type="submit"> Tim Kiem </button>
+        <button type="submit" name="action" value="search"> Tim Kiem </button>
+        <input type="submit" name="action" id="export" value="export" >
+        
     </form>
 </div>
+<script type="text/javascript">
+
+</script>
 <div class="row">
     <div align="center">
         <table class="table">
@@ -41,12 +48,5 @@
                 </tbody>
                 <?php endforeach ?>
         </table>
-        <div>
-            <form action="" method="GET" >
-                <input type="submit" name="export" id="export" value="export">
-                 <input type="hidden" name="controller" value="PDOhome">
-                 <input type="hidden" name="action" value="ExportCSV">
-            </form>
-        </div>
     </div>  
 </div>

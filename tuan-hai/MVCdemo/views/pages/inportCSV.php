@@ -2,5 +2,5 @@
 	<input type="file" name="file">
 	<input type="submit" name="submit" value="inportCSV">
     <input type="hidden" name="controller" value="PDOhome">
-    <input type="hidden" name="action" value="inportCSV">
+    <input type="hidden" name="action" value="importCSV">
 </form>

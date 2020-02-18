@@ -2,7 +2,7 @@
 	require_once 'config/controller.php';
 	class PDOhomecontroller extends controller
 	{
-	   private $modelUserPDO;
+	  private $modelUserPDO;
 	    function __construct()
 	    {
 	  	$this->modelUserPDO = $this->model('PDOuser');
@@ -16,7 +16,7 @@
 	     	]);
 	      }
 
-	   public function Search(){
+	  public function Search(){
 	 	if (empty($_GET['search'])) {
 	 		$this->views("Trangchu", [
 	 		"pages"      => "search",
@@ -24,15 +24,35 @@
 	 	]);
 	 	}else {
 			 $keyword = $_GET['search'];
-	 		 $data    = $this->modelUserPDO->searchUser($keyword);
+			 $data = $this->modelUserPDO->searchUser($keyword);
 	 		 $this->views("Trangchu", [
 	 			"pages"      => "search",
 	 			"DATA"       => $this->modelUserPDO->searchUser($keyword),
 	 			]);
 
+	 		}
 	 	}
-	  }
-
+	  public function Export(){
+			      	if (empty($_GET['search'])) {
+			 		$this->views("Trangchu", [
+			 		"pages"      => "search",
+					"DATA"       => $this->modelUserPDO->getUser(),
+			 	]);
+			 	}else {
+			 		$keyword = $_GET['search'];
+					$data = $this->modelUserPDO->searchUser($keyword);
+					    $openfile = fopen("DataSearch.csv","w")or die("Unable to open file!");
+					    fputcsv($openfile , array('ID','USERNAME','PASSWORD','ADDRESS'));
+					    foreach ($data as $key) {
+					    	 fputcsv($openfile,$key);
+					    }
+					    fclose($openfile);
+					    $this->views("Trangchu", [
+				 			"pages"      => "search",
+				 			"DATA"       => $this->modelUserPDO->searchUser($keyword),
+			 			]);
+			 		  }
+			      }
 	  public function Pagination(){
 	   $this->views("Trangchu",[
 	     "pages"      => "Pagination",
@@ -40,23 +60,7 @@
 		 "total"      => $this->modelUserPDO->TotalP(),
 			]);
 	 	}
-	
-		 public function ExportCSV(){
-		 	if (empty($_GET['export'])) {
-		 		$this->views("Trangchu",[
-		 		"pages"      => "ExportCSV",
-		 		]);
-		 	}else{
-		 	 $keyword = $_GET['export'];
-	 		 $data    = $this->modelUserPDO->searchUser($keyword);
-	 		
-	 		 $this->views("Trangchu", [
-	 			"pages"      => "ExportCSV",
-	 			"DATA"       => $this->modelUserPDO->searchUser($keyword),
-	 			]);
-	 		}
-		 } 
-		 public function inportCSV(){
+	  public function inportCSV(){
 		 	if (isset($_POST['submit'])) {
 		 		$filename  = $_FILES["file"]["name"]; 
 		 		if ($_FILES['file']['size'] > 0) {
@@ -65,14 +69,14 @@
 		 			 $this->modelUserPDO->InsertCSV($emapData);
 		 		  }
 		 		}
-		 		 echo 'Projects imported';
+		 		 echo 'Thành Công ';
 		 	}else{
-		 		echo "that bai";
+		 		echo "Thất bại";
 		 	}
 		 		$this->views("Trangchu",[
 		 	      "pages"   =>"inportCSV",
 		 		]);
-
 		 }
-		}
+
+	}
  ?>
