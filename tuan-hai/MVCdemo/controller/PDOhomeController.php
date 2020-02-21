@@ -1,12 +1,15 @@
 <?php 
-	require_once 'config/controller.php';
-	class PDOhomecontroller extends controller
-	{
+
+ require_once 'config/controller.php';
+   class PDOhomecontroller extends controller
+
+    {
 	  private $modelUserPDO;
 	    function __construct()
 	    {
 	  	$this->modelUserPDO = $this->model('PDOuser');
 	    }
+
 	  // lấy ra danh sách user 
 
 	    public function selectUser(){
@@ -76,7 +79,31 @@
 		 		$this->views("Trangchu",[
 		 	      "pages"   =>"inportCSV",
 		 		]);
-		 }
+	  }
+
+	  public function delete(){
+	  	
+	  }
+	  public function login(){
+	 	if (isset($_POST['submit'])) {
+	 		$_SESSION['email']    = $_POST['email'];
+	 		$_SESSION['password'] = $_POST['password'];
+
+	 		$data    = $this->modelUserPDO->getUser();
+
+	 		$email   = $_SESSION['email'];
+	 		$password= $_SESSION['password'];
+	 		foreach ($data as $key) {
+	 			if ($key['password'] == $password && $key['email'] == $email) {
+	 					header("location:index.php?controller=PDOhome&action=selectUser");
+	 			}
+	 		}		
+	 	}
+	  	 $this->views("Trangchu",[
+	  	     "pages" =>"login"
+	  	  ]);
+	  	
+	  }
 
 	}
  ?>

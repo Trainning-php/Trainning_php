@@ -44,7 +44,7 @@
                         </a>
                     </li>
                     <?php }?>
-                        <li class="paginate_button page-item next" id="dataTable_next"><a href="#" aria-controls="dataTable" data-dt-idx="7" tabindex="0" class="page-link">Last</a></li>
+                        <li class="paginate_button page-item next" id="dataTable_next"><a href="<?= '?page='.$data['total'].'&controller=PDOhome&action=Pagination';?>" aria-controls="dataTable" data-dt-idx="7" tabindex="0" class="page-link">Last</a></li>
             </ul>
         </div>
 

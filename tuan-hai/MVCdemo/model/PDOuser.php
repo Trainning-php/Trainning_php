@@ -5,12 +5,9 @@
 require_once 'config/PDO.php';
 class PDOuser extends PDOquery
 {
-
   public function getUser() {
 	 return $this->getAll();
-	
 	}
-
   public function searchUser($keyword) {
     $data=  $this->search($keyword);
  
@@ -25,6 +22,9 @@ class PDOuser extends PDOquery
   }
   public function InsertCSV($data){
     return $this->InsertData($data);
+  }
+  public function DeleteUser($id){
+    return $this->delete($id);
   }
 }
  ?>

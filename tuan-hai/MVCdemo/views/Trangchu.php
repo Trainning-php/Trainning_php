@@ -14,7 +14,6 @@
     <link rel="stylesheet" type="text/css" href="./public/css/sb-admin-2.css">
     <link rel="stylesheet" type="text/css" href="./public/css/style.css">
 </head>
-
 <body id="page-top">
 
     <!-- Page Wrapper -->
@@ -49,7 +48,7 @@
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.html">Login</a>
+                        <a class="collapse-item" href="index.php?controller=PDOhome&action=login">Login</a>
                         <a class="collapse-item" href="register.html">Register</a>
                     </div>
                 </div>
@@ -167,6 +166,9 @@
         <script src="./public/js/bootstrap.min.js"></script>
         <script src="./public/js/all.min.js"></script>
         <script src="./public/js/bootstrap.bundle.min.js"></script>
+        <script src="./public/js/validate.js"></script>
+        <script src="./public/js/jquery.validate.js"></script>
+        <script src="./public/js/jquery.validate.min.js"></script>
 
 </body>
 

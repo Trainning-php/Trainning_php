@@ -8,11 +8,13 @@
                     <th scope="col">USERNAME</th>
                     <th scope="col">PASSWORD</th>
                     <th scope="col">ADDRESS</th>
+                    <th scope="col">DELETE</th>
                 </tr>
             </thead>
-            <?php $id=1;foreach ($data["DT"] as $key): ?>
-                <tbody>
-                    <tr>
+            <tbody>
+                 <?php $id=1;foreach ($data["DT"] as $key): ?>
+                
+                    <tr id="#<?php echo $id?>">
                         <th scope="row">
                             <?php echo $id++ ?>
                         </th>
@@ -28,16 +30,19 @@
                         <td>
                             <?php echo $key['address'] ?>
                         </td>
+                        <td><a href="index.php?id=<?php echo $key['id'] ?>&controller=PDOhome&action=delete" class="XoaUser">xoa</a></td>            
                     </tr>
-                </tbody>
+              
                 <?php endforeach ?>
+            </tbody>
+          
         </table>
-        Trang:
+        <!-- Trang:
         <?php 
 			$a=5;
 			for ($i=1; $i <$a ; $i++) { 
 				echo '<a href="index.php?page='.$i.'&controller=PDOhome&action=selectUser "> '.' '.$i.' '.' </a>';
 			}
-		 ?>
+		 ?> -->
     </div>
 </div>

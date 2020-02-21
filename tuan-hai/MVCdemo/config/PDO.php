@@ -33,7 +33,7 @@ class PDOquery extends ConnectPDO
 		}
 
 	public function TotalPages(){
-		$limit         = 3;
+		$limit         = 2;
 		$sql           = "$this->sqlQuery user ";
 		$result        = $this->conn->prepare($sql);
 		$result->execute();
@@ -43,7 +43,7 @@ class PDOquery extends ConnectPDO
 	}
 
 	public function Paginations(){
-		$limit    = 4;
+		$limit    = 2;
 		  if (!isset($_GET['page'])) {
 	        $page = 1;
 	    } else{
@@ -63,6 +63,12 @@ class PDOquery extends ConnectPDO
 		$stm   = $this->conn->prepare($query);
 		$stm->execute($data);
 		return $stm;
+	}
+	public function delete($id){
+		$query = "DELETE FROM user WHERE id = :id ";
+		$res   = $this->conn->prepare($query);
+		$res->execute();
+		return $res;
 	}
 
 }
