@@ -1,15 +1,4 @@
-<!-- 
-	<h1>Login</h1>
-	<form action="index.php?controller=home&action=login" method="POST" accept-charset="utf-8">
-		<label>Username:</label>
-		<input type="text" name="username" id="username">
-		<label>Password</label>
-		<input type="password" name="password" id="password">
-		<input type="submit" name="login" id="login" value="Login">
- -->
- 
   <div class="container">
-
     <!-- Outer Row -->
     <div class="row justify-content-center">
 
@@ -28,10 +17,16 @@
 
                   <form class="user" method="POST" action="index.php?controller=PDOhome&action=login" id="formlogin">
                     <div class="form-group">
-                      <input type="text" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="Enter Email Address..." id="email" name="email" required value="<?php echo $_SESSION['email'] ?>">
+                      <input type="text" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="Enter Email Address..." id="email" name="email" required <?php if (isset($_SESSION['email'])): ?>
+                        value="<?php echo $_SESSION['email'] ?>"
+                      
+                        
+                      <?php endif ?>>
                     </div>
                     <div class="form-group">
-                      <input type="password" class="form-control form-control-user" id="password" placeholder="Password" name="password" required value="<?php echo $_SESSION['password'] ?>">
+                      <input type="password" class="form-control form-control-user" id="password" placeholder="Password" name="password" required <?php if (isset($_SESSION['password'])): ?>
+                        value="<?php echo $_SESSION['password'] ?>"
+                      <?php endif ?>>
                     </div>
                     <!-- <div class="form-group">
                       <div class="custom-control custom-checkbox small">

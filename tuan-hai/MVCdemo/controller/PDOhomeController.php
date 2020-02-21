@@ -100,10 +100,15 @@
 	 		}		
 	 	}
 	  	 $this->views("Trangchu",[
-	  	     "pages" =>"login"
+	  	     "pages" => "login"
 	  	  ]);
 	  	
 	  }
+	  public function sendMail(){
+	  	$this->views("Trangchu",[
+	  		"pages"  => "SendMail"
+	  	]);
 
+	  }
 	}
  ?>

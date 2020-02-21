@@ -12,11 +12,11 @@
                 </tr>
             </thead>
             <tbody>
-                 <?php $id=1;foreach ($data["DT"] as $key): ?>
+                 <?php $id=0;foreach ($data["DT"] as $key): ?>
                 
-                    <tr id="#<?php echo $id?>">
+                    <tr up="<?php echo $id++?>" id="row-<?php echo $id?>">
                         <th scope="row">
-                            <?php echo $id++ ?>
+                            <?php echo $id ?>
                         </th>
                         <td>
                             <?php echo $key['id'] ?>
@@ -30,7 +30,7 @@
                         <td>
                             <?php echo $key['address'] ?>
                         </td>
-                        <td><a href="index.php?id=<?php echo $key['id'] ?>&controller=PDOhome&action=delete" class="XoaUser">xoa</a></td>            
+                        <td><a href="index.php?id=<?php echo $key['id'] ?>&controller=PDOhome&action=delete" class="XoaUser" target="#row-<?php echo $id?>">xoa</a></td>            
                     </tr>
               
                 <?php endforeach ?>
