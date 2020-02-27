@@ -74,6 +74,19 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>InportCSV</span></a>
             </li>
+             </li>
+               <li class="nav-item">
+                <a class="nav-link" href="index.php?&controller=PDOhome&action=sendmail">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>SendMail</span></a>
+            </li>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" onclick="user.showOverlay();">
+                    <span class="icon add"></span>
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>formData</span></a>
+            </li>
         </ul>
         <!-- End of Sidebar -->
 
@@ -169,6 +182,10 @@
         <script src="./public/js/validate.js"></script>
         <script src="./public/js/jquery.validate.js"></script>
         <script src="./public/js/jquery.validate.min.js"></script>
+        <script src="./public/js/sendmail.js"></script>
+        <script src="./public/temblate/js/base.js"></script>
+        <script src="./public/temblate/js/user.js"></script>
+
 
 </body>
 
