@@ -69,10 +69,19 @@ class PDOquery extends ConnectPDO
 	}
    public function delete($id)
    {
-	  $query = "DELETE FROM user WHERE id = :id ";
+	  $query = "DELETE FROM user WHERE id = ? ";
 	  $res   = $this->conn->prepare($query);
-	  $res->execute();
+	  $res->execute([$id]);
 	  return $res;
+	}
+	public function selectByID($id)
+	{
+	  $query = " $this->sqlQuery WHERE id = ?";
+	  $rs    = $this->conn->prepare($query);
+	  $rs->execute([$id]);
+	  $result= $rs->fetchAll(PDO::FETCH_ASSOC);
+      return $result;
+    
 	}
 
 }

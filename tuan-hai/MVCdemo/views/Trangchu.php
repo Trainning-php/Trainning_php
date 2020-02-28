@@ -68,24 +68,30 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>Pagination</span></a>
             </li>
-             </li>
+            
                <li class="nav-item">
                 <a class="nav-link" href="index.php?controller=PDOhome&action=inportCSV">
                     <i class="fas fa-fw fa-table"></i>
                     <span>InportCSV</span></a>
             </li>
-             </li>
+             
                <li class="nav-item">
                 <a class="nav-link" href="index.php?&controller=PDOhome&action=sendmail">
                     <i class="fas fa-fw fa-table"></i>
                     <span>SendMail</span></a>
             </li>
-               </li>
+              
                <li class="nav-item">
                 <a class="nav-link" onclick="user.showOverlay();">
                     <span class="icon add"></span>
                     <i class="fas fa-fw fa-table"></i>
                     <span>formData</span></a>
+            </li>
+                <li class="nav-item">
+                <a class="nav-link" href="index.php?&controller=PDOhome&action=searchJS">
+                    <span class="icon add"></span>
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>searchJS</span></a>
             </li>
         </ul>
         <!-- End of Sidebar -->
@@ -173,7 +179,7 @@
         <!-- Bootstrap core JavaScript-->
         <script src="./public/js/jquery.min.js"></script>
         <script src="./public/js/jquery.easing.min.js"></script>
-
+        <script src="./public/js/ajaxJson.js"></script>
         <script src="./public/js/fontawesome.min.js"></script>
         <script src="./public/js/sb-admin-2.min.js"></script>
         <script src="./public/js/bootstrap.min.js"></script>
@@ -185,6 +191,7 @@
         <script src="./public/js/sendmail.js"></script>
         <script src="./public/temblate/js/base.js"></script>
         <script src="./public/temblate/js/user.js"></script>
+        
 
 
 </body>

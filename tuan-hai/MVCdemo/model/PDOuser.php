@@ -26,5 +26,8 @@ class PDOuser extends PDOquery
   public function DeleteUser($id){
     return $this->delete($id);
   }
+  public function selectId($id){
+    return $this->selectByID($id);
+  }
 }
  ?>
