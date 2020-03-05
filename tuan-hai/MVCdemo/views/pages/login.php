@@ -25,7 +25,7 @@
                       <input type="password" class="form-control form-control-user" id="password" placeholder="Password" name="password" required <?php if (isset($_SESSION['password'])): ?>
                         value="<?php echo $_SESSION['password'] ?>"
                       <?php endif ?>>
-                       <?php if (property_exists($data['error'],'password')) echo $data['error']->password ?> 
+                       <p><?php if (property_exists($data['error'],'password')) echo $data['error']->password ?> </p>
                     </div>
                    
                     <input class="btn btn-primary btn-user btn-block" id="clickformlogin" type="submit" name="submit" value="login">

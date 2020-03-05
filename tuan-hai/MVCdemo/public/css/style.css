@@ -1,16 +1,16 @@
 input.error{
-	border: 1px dashed red;
-	box-shadow: 0 0 0 0.2rem rgba(206, 27, 27, 0.27);
-	width: 100%;
+    border: 1px dashed red;
+    box-shadow: 0 0 0 0.2rem rgba(206, 27, 27, 0.27);
+    width: 100%;
 }
 label.error{
-	font-size: .75rem;
-	color: red;
-	padding-left: 8px;
+    font-size: .75rem;
+    color: red;
+    padding-left: 8px;
 }
 .container-fluid .input-group .input-group-append{
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .container-fluid .input-group .input-group-append .form-control{
-	border: solid 1px blue;
+    border: solid 1px blue;
 }
