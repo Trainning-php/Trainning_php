@@ -82,7 +82,7 @@
             </li>
               
                <li class="nav-item">
-                <a class="nav-link" onclick="user.showOverlay();">
+                <a class="nav-link" href="index.php?&controller=PDOhome&action=demoAjax">
                     <span class="icon add"></span>
                     <i class="fas fa-fw fa-table"></i>
                     <span>formData</span></a>
@@ -137,13 +137,7 @@
                 <!-- End of Main Content -->
 
                 <!-- Footer -->
-                <footer class="sticky-footer bg-white">
-                    <div class="container my-auto">
-                        <div class="copyright text-center my-auto">
-                            <span>Copyright &copy; Your Website <script>document.write(new Date().getFullYear())</script></span>
-                        </div>
-                    </div>
-                </footer>
+               
                 <!-- End of Footer -->
 
             </div>

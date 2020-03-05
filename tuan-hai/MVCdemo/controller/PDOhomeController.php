@@ -18,10 +18,6 @@ class PDOhomecontroller extends controller
 	  // lấy ra danh sách user 
 	 public function selectUser() 
 	 {
-	  //  $data = json_encode($this->modelUserPDO->getUser());
-	 	// var_dump($data);
-	 	// die;
-
 	    $this ->views("Trangchu",[
 	     "pages" => "ListUserPDO",
 	     "DT"    => $this->modelUserPDO->getUser(),
@@ -44,6 +40,7 @@ class PDOhomecontroller extends controller
 	 	   ]);
 	 	}
 	 }
+	 //export file csv
 	 public function export()
 	 {
 	   if (empty($_GET['search'])) {
@@ -66,6 +63,7 @@ class PDOhomecontroller extends controller
 		   ]);
 	    }
 	  }
+	  // phân trang 
 	 public function pagination()
 	 {
 	   $this->views("Trangchu",[
@@ -74,6 +72,7 @@ class PDOhomecontroller extends controller
 		 "total"      => $this->modelUserPDO->TotalP(),
 			]);
 	 }
+	 //inport file csv
 	 public function inportCSV()
 	 {
 	 	$this->views("Trangchu",[
@@ -94,13 +93,14 @@ class PDOhomecontroller extends controller
 	   	}
 	   }
 	  }
-
+	  //xoa user
 	 public function delete(){
 		if (isset($_GET['id'])) {
 			$id = $_GET['id'];
 			$this->modelUserPDO->DeleteUser($id);
 		}
 	  }
+	  //trang login
 	 public function login()
 	 {
 	 	$error  = new stdClass();
@@ -111,11 +111,6 @@ class PDOhomecontroller extends controller
 	 	$data    = $this->modelUserPDO->getUser();
 	 	$email   = $_SESSION['email'];
 	 	$password= $_SESSION['password'];
-	 	// var_dump($data);
-	 	// die;
-	 
-	 	// var_dump($error);
-	 	// die;
 	 	foreach ($data as $key) {
 
 	 	 if ($key['password'] == $password &&$key['email'] !== $email)
@@ -140,10 +135,14 @@ class PDOhomecontroller extends controller
 	  	  "error" => $error,
 	  	  ]);
 	  }
+	  //gửi mail
 	 public function sendMail()
 	 {	 
 	  if ((isset($_POST['email']))&&(isset($_POST['phone'])&&$_POST['phone'] != "")&
-	 	  (isset($_POST['comment']))) {
+	 	  (isset($_POST['subject']))) {
+	  	    $email   = $_POST['email'];
+	  	    $body    = $_POST['comment'];
+	  	    $subject = $_POST['subject'];
             $mail = new PHPMailer;
             $mail->isSMTP();
             $mail->SMTPDebug  = 1;  
@@ -154,12 +153,12 @@ class PDOhomecontroller extends controller
             $mail->Username   = "tuemvd00660@fpt.edu.vn";
             $mail->Password   = "1994maitue";
             $mail->IsHTML(true);
-            $mail->AddAddress("tuemvd00660@fpt.edu.vn", "tue");
+            $mail->AddAddress($email, "tue");
             $mail->SetFrom("tuemvd00660@fpt.edu.vn", "tue");
-            $mail->AddReplyTo("mavantue29@gmail.com", "maitue");
+            $mail->AddReplyTo("maivantue29@gmail.com", "maitue");
             $mail->msgHTML($body);
-            $mail->Subject = "Test is Test Email sent via Gmail SMTP Server using PHP Mailer";
-            $mail->Body    = "<b>This is a Test Email sent via Gmail SMTP Server using PHP mailer class.</b>";
+            $mail->Subject =  $subject;
+            // $mail->Body    = "<b>This is a Test Email sent via Gmail SMTP Server using PHP mailer class.</b>";
             if(!$mail->send()){
             echo "Mailer Error: " . $mail->ErrorInfo;
             }else{
@@ -176,8 +175,8 @@ class PDOhomecontroller extends controller
 	 public function searchJS()
 	 {
 	   if (isset($_POST["id"])) 
-	   {
-		   $id = $_POST["id"];
+	   { 
+		   $id    = $_POST["id"];
 		   $data1 = $this->modelUserPDO->selectId($id);
 		 foreach ($data1 as $key) 
 		 {
@@ -188,10 +187,34 @@ class PDOhomecontroller extends controller
 		   echo json_encode($data);
 		  return;
 	   }
+
 		$this->views("Trangchu",[
 	   	"pages"   => "search-JS",
 	   	"dt"      => $this->modelUserPDO->getUser(),
 	 	  ]);
-	    }
+	 }
+	 //
+	 public function demoAjax(){
+	 	if (isset($_POST['id'])) {
+	 		$id   = $_POST['id'];
+	 	    $data = $this->modelUserPDO->selectId($id);
+
+	 	    foreach ($data as $key) {
+	 	    	$data1['name']     = $key["username"];
+	 	    	$data1['password'] = $key["password"];
+	 	    	$data1['email']    = $key['email'];
+	 	    }
+	 	    echo  json_encode($data1);
+	 	    return;
+	 	}
+	 	
+	 	$this->views("Trangchu",[
+	 	  "pages" => "exampleAjax",
+	 	  "dt"    => $this->modelUserPDO->getUser(),
+	 	]);
+	 	
+	 }
+
+
 }
  ?>

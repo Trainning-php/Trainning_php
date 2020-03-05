@@ -6,9 +6,9 @@
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Enter email" name="email" id="email">
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputPhone">Phone</label>
-                    <input type="text" class="form-control"  placeholder="Phone" name="phone" id="phone">
+                  <div class="form-group">
+                    <label for="exampleInputPhone">Subject</label>
+                    <input type="text" class="form-control"  placeholder="Subject" name="subject" id="subject">
                 </div>
                 <div class="form-group">
                 	<label for="exampleInputcomment">Comment</label>
