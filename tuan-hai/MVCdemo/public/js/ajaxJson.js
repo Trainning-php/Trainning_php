@@ -21,4 +21,9 @@ $(document).ready(function(){
         });
       }
   });
+  $('#datepicker').click(function(){
+    $( function() {
+        $( "#datepicker" ).datepicker({dateFormat:'dd/mm/yy'});
+    });
+  });
 });

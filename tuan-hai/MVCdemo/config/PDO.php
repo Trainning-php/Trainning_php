@@ -9,24 +9,38 @@ class PDOquery extends ConnectPDO
     private $sqlQuery  = "SELECT * FROM user";
         function __construct()
         {
-            $connect    = new connectPDO();
-            $this->conn = $connect->connectDB();
+            $connect         = new connectPDO();
+            $this->conn      = $connect->connectDB();
+        }
+         public function querySql($sql,$value){
+            $result    = $this->conn->prepare($sql);
+            $result->execute($value);
+            $data     = $result->fetchAll(PDO::FETCH_ASSOC);
+            return $data;
         }
         public function getAll() 
         {
-            $sql      = "$this->sqlQuery";
-            $sth      =  $this->conn->prepare($sql);
-            $sth->execute();
-            $result   = $sth->fetchAll( PDO::FETCH_ASSOC );
-            return $result;
+            $limit     = 2;
+            if (!isset($_GET['page'])) {
+                $page  = 1;
+            } else{
+                $page  = $_GET['page'];
+            }
+            $start     = ($page-1)*$limit;
+            $sql      = "$this->sqlQuery ORDER BY  id ASC LIMIT $start,$limit";
+            return self::querySql($sql,null);
         }
         public function search($keyword) 
         {
-            $sql      = " $this->sqlQuery user WHERE username REGEXP '$keyword' ORDER BY  id ASC";
-            $result   = $this->conn->prepare($sql);
-            $result->execute();
-            $data     = $result->fetchAll(PDO::FETCH_ASSOC);
-            return $data;
+            $limit     = 2;
+            if (!isset($_GET['page'])) {
+                $page  = 1;
+            } else{
+                $page  = $_GET['page'];
+            }
+            $start     = ($page-1)*$limit;
+            $sql      = " $this->sqlQuery user WHERE username REGEXP '$keyword' OR  address REGEXP '$keyword' OR email REGEXP '$keyword' OR password REGEXP '$keyword' ORDER BY  id ASC LIMIT $start,$limit";
+           return self::querySql($sql,null);
         }
         public function totalPages()
         {
@@ -41,7 +55,7 @@ class PDOquery extends ConnectPDO
 
         public function paginations() 
         {
-            $limit    = 2;
+            $limit     = 2;
             if (!isset($_GET['page'])) {
                 $page  = 1;
             } else{
@@ -49,10 +63,7 @@ class PDOquery extends ConnectPDO
             }
                 $start     = ($page-1)*$limit;
                 $sqlLimit  = "$this->sqlQuery ORDER BY id ASC LIMIT $start, $limit";
-                $stmt      = $this->conn->prepare($sqlLimit);
-                $stmt->execute();
-                $results   = $stmt->fetchAll(PDO::FETCH_ASSOC);
-                return $results;
+                return self::querySql($sqlLimit,null);
         }
 
         public function insertData($data)
@@ -72,11 +83,7 @@ class PDOquery extends ConnectPDO
         public function selectByID($id)
         {
             $query = " $this->sqlQuery WHERE id = ?";
-            $rs    = $this->conn->prepare($query);
-            $rs->execute([$id]);
-            $result= $rs->fetchAll(PDO::FETCH_ASSOC);
-            return $result;
-    
+            return  self::querySql($query,[$id]);
         }
 
 }

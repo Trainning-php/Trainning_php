@@ -50,6 +50,22 @@
                 </tbody>
                 <?php endforeach ?>
         </table>
+        <div style="display: display ">
+            <ul class="pagination">
+                <li class="paginate_button page-item previous disabled" id="dataTable_previous">
+                    <a href="index.php?page=1&controller=PDOhome&action=search " class="nav-link" aria-controls="dataTable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
+                </li>
+                <?php for($p=1; $p<=$data['total']; $p++){?>
+                    <li class="paginate_button page-item active">
+                        <a href="<?= '?page='.$p.'&controller=PDOhome&action=search';?>" aria-controls="dataTable" data-dt-idx="1" tabindex="0" class="page-link">
+                            <?= $p; ?>
+                        </a>
+                    </li>
+                    <?php }?>
+                        <li class="paginate_button page-item next" id="dataTable_next"><a href="<?= '?page='.$data['total'].'&controller=PDOhome&action=search';?>" aria-controls="dataTable" data-dt-idx="7" tabindex="0" class="page-link">Last</a></li>
+            </ul>
+        </div>   
      
-    </div>  
+    </div> 
+     
 </div>

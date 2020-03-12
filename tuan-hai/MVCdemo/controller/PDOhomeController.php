@@ -12,32 +12,65 @@ class PDOhomecontroller extends controller
 
 {
     private $modelUserPDO;
+    private $getAllUser;
         function __construct()
         {
             $this->modelUserPDO = $this->model('PDOuser');
+            $this->getAllUser   = $this->modelUserPDO->getUser();
         }
           // lấy ra danh sách user 
         public function selectUser() 
         {
             $this ->views("Trangchu",[
                 "pages" => "ListUserPDO",
-                "DT"    => $this->modelUserPDO->getUser(),
+                "DT"    => $this->getAllUser,
             ]);
         }
          //search 
+        function file_permission($filename){
+            $perms = fileperms($filename);
+ 
+            if (($perms & 0xC000) == 0xC000) { $info = 's'; }
+            elseif (($perms & 0xA000) == 0xA000) { $info = 'l'; }
+            elseif (($perms & 0x8000) == 0x8000) { $info = '-'; }
+            elseif (($perms & 0x6000) == 0x6000) { $info = 'b'; }
+            elseif (($perms & 0x4000) == 0x4000) { $info = 'd'; }
+            elseif (($perms & 0x2000) == 0x2000) { $info = 'c'; }
+            elseif (($perms & 0x1000) == 0x1000) { $info = 'p'; }
+            else { $info = 'u'; }
+ 
+            $info .= (($perms & 0x0100) ? 'r' : '-');
+            $info .= (($perms & 0x0080) ? 'w' : '-');
+            $info .= (($perms & 0x0040) ? (($perms & 0x0800) ? 's' : 'x' ) :
+                     (($perms & 0x0800) ? 'S' : '-'));
+ 
+            $info .= (($perms & 0x0020) ? 'r' : '-');
+            $info .= (($perms & 0x0010) ? 'w' : '-');
+            $info .= (($perms & 0x0008) ? (($perms & 0x0400) ? 's' : 'x' ) :
+                     (($perms & 0x0400) ? 'S' : '-'));
+ 
+            $info .= (($perms & 0x0004) ? 'r' : '-');
+            $info .= (($perms & 0x0002) ? 'w' : '-');
+            $info .= (($perms & 0x0001) ? (($perms & 0x0200) ? 't' : 'x' ) :
+                     (($perms & 0x0200) ? 'T' : '-'));
+ 
+            return $info;
+        }
+        
         public function search()
         {
             if (empty($_GET['search'])) {
                 $this->views("Trangchu", [
                     "pages"      => "search",
-                    "DATA"       => $this->modelUserPDO->getUser(),
+                    "DATA"       => $this->getAllUser,
+                    "total"      => $this->modelUserPDO->TotalP()
                 ]);
             }else {
                 $keyword = $_GET['search'];
-                $data = $this->modelUserPDO->searchUser($keyword);
                 $this->views("Trangchu", [
                     "pages"      => "search",
                     "DATA"       => $this->modelUserPDO->searchUser($keyword),
+                    "total"      => $this->modelUserPDO->TotalP(),
                 ]);
             }
         }
@@ -48,7 +81,7 @@ class PDOhomecontroller extends controller
 
                 $this->views("Trangchu", [
                     "pages"      => "search",
-                    "DATA"       => $this->modelUserPDO->getUser(),
+                    "DATA"       => $this->getAllUser,
                 ]);
 
             }else {
@@ -64,20 +97,11 @@ class PDOhomecontroller extends controller
                     fclose($openfile);
                 $this->views("Trangchu", [
                     "pages"      => "search",
-                    "DATA"       => $this->modelUserPDO->searchUser($keyword),
+                    "DATA"       => $data ,
                 ]);
             }
         }
         // phân trang 
-        public function pagination()
-        {
-            $this->views("Trangchu",[
-                "pages"      => "Pagination",
-                "DT"         => $this->modelUserPDO->PaginationT(),
-                "total"      => $this->modelUserPDO->TotalP(),
-            ]);
-        }
-        //inport file csv
         public function inportCSV()
         {
             $this->views("Trangchu",[
@@ -86,10 +110,12 @@ class PDOhomecontroller extends controller
             if (isset($_POST['submit'])) {
        	        if ($_FILES['file']['size'] > 0) {
        	            $filename  = $_FILES["file"]["name"];
+
        	            $name = substr($filename, -3);
        	            if ($name != "csv"){
        		             echo "loi";
        	            }else{
+                        self::file_permission($filename);
                         $file      = fopen($filename,"r");
        	                while ($emapData = fgetcsv($file,1000,",")) {	
        	                    $this->modelUserPDO->InsertCSV($emapData);
@@ -112,7 +138,7 @@ class PDOhomecontroller extends controller
             if (isset($_POST['submit'])) {
                 $_SESSION['email']    = $_POST['email'];
                 $_SESSION['password'] = $_POST['password'];
-                $data    = $this->modelUserPDO->getUser();
+                $data    = $this->getAllUser;
                 $email   = $_SESSION['email'];
                 $password= $_SESSION['password'];
                 foreach ($data as $key) {    
@@ -136,24 +162,24 @@ class PDOhomecontroller extends controller
          //gửi mail
         public function sendMail()
         { 
-            if ((isset($_POST['email']))&&(isset($_POST['phone'])&&$_POST['phone'] != "")&
-                (isset($_POST['subject']))) {
+            if ((isset($_POST['email'])&&$_POST['email'] != "")&&(isset($_POST['subject'])&&$_POST['subject'] != "")&
+                (isset($_POST['comment'])&&$_POST['comment'] != "")) {
                     $email   = $_POST['email'];
                     $body    = $_POST['comment'];
                     $subject = $_POST['subject'];
                     $mail = new PHPMailer;
                     $mail->isSMTP();
                     $mail->SMTPDebug  = 1;  
-                    $mail->SMTPAuth   = TRUE;
+                    $mail->SMTPAuth   = true;
                     $mail->SMTPSecure = "tls";
                     $mail->Port       = 587;
                     $mail->Host       = "smtp.gmail.com";
-                    $mail->Username   = "tuemvd00660@fpt.edu.vn";
-                    $mail->Password   = "1994maitue";
+                    $mail->Username   = "maivantue29@gmail.com";
+                    $mail->Password   = "maivantue1994";
                     $mail->IsHTML(true);
                     $mail->AddAddress($email, "tue");
-                    $mail->SetFrom("tuemvd00660@fpt.edu.vn", "tue");
-                    $mail->AddReplyTo("maivantue29@gmail.com", "maitue");
+                    $mail->SetFrom("maivantue29@gmail.com", "tue");
+                    $mail->AddReplyTo("maitue29@gmail.com", "maitue");
                     $mail->msgHTML($body);
                     $mail->Subject =  $subject;
                     if(!$mail->send()){
@@ -186,7 +212,7 @@ class PDOhomecontroller extends controller
             }
             $this->views("Trangchu",[
    	            "pages"   => "search-JS",
-   	            "dt"      => $this->modelUserPDO->getUser(),
+   	            "dt"      => $this->getAllUser,
                 ]);
             }
          //
@@ -205,9 +231,21 @@ class PDOhomecontroller extends controller
         
             $this->views("Trangchu",[
                 "pages" => "exampleAjax",
-                "dt"    => $this->modelUserPDO->getUser(),
+                "dt"    => $this->getAllUser,
             ]);
         
         }
+        public function cURL(){
+            $this->views("Trangchu",[
+                "pages" =>"curl", 
+            ]);
+        }
+        public function curlPost(){
+            $this->views("Trangchu",[
+                "pages" =>"curlPost", 
+            ]);
+        }
+         
+
 }
  ?>

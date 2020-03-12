@@ -14,7 +14,7 @@ $(document).ready(function() {
 		var txt;
 		//attr là thuộc tính 
 		var target= $(this).attr('target');
-		var name  = $(target).find('td'); //find lấy ra hàng thứ mấy 
+		var name  = $(target).find('td'); //find lấy ready hàng thứ mấy 						
 
 		//console.log(name[3].innerText);
  		var r     = confirm(" Bạn có muốn xóa"+" "+name[1].innerText);
@@ -28,7 +28,7 @@ $(document).ready(function() {
 		} else {	
 		         return false;
 		}
-
 	});
+    
 
 });

@@ -2,10 +2,10 @@
     require_once 'config/Db.php';
     class User extends Db
     {
-        public function getUser($table) 
-        {
-            return $this->fetchAll($table);
-        }
+        // public function getUser($table) 
+        // {
+        //     return $this->fetchAll($table);
+        // }
         // lay ra cac ban ghi theo id
         public function getUserID($table,$id)
         {

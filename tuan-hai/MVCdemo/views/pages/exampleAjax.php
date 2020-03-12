@@ -56,7 +56,7 @@
      </div>
     </div>  
 <div class="text-center mar-t10 mar-b5">
-    <input type="button" value="Dangky" onclick="user.showUser()"/>
+    <input type="button" value="ShowData" onclick="user.showUser()"/>
     <input type="button" value="cancel" onclick="user.cancelDemo()"/>
      <input type="button" value="showOverlay" onclick="user.showOverlay()"/>
 </div>

@@ -1,7 +1,8 @@
 <?php
 class ConnectPDO
 {
-    private $pdo;
+    private static $pdo;
+    private $conn;
     private $host    = '127.0.0.1';
     private $db      = 'mvc';
     private $user    = 'tue';
@@ -11,11 +12,14 @@ class ConnectPDO
         function __construct()
         {
             $dsn       = "mysql:host=$this->host;dbname=$this->db;charset=$this->charset";
-            $this->pdo = new PDO($dsn,$this->user,$this->pass);
+            self::$pdo = new PDO($dsn,$this->user,$this->pass);
         }
         function connectDB()
-        {
-            return $this->pdo;
+        {    
+            if (!isset(self::$pdo)) {
+                self::$pdo = new ConnectPDO();
+            }
+            return self::$pdo;
         }
 }
  ?>

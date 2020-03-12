@@ -12,6 +12,7 @@ function BaseController()
         $("#data_email").text(data.email);
     }
     this.showOverla =function(){
+        
     }
 }
 var BaseController = new BaseController();

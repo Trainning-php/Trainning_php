@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $(function(){
+  $("#sendMail").click(function(){
     $("#form_sendmail").submit(function(e){
      e.preventDefault();
      var form_data = $(this).serialize();

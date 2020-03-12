@@ -9,7 +9,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+     <title>SB Admin 2 - Dashboard</title>
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link href="./public/css/jquery-ui.css" rel="stylesheet" type="text/css">
     <link href="./public/css/all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="./public/css/sb-admin-2.css">
     <link rel="stylesheet" type="text/css" href="./public/css/style.css">
@@ -62,13 +64,6 @@
                 <a class="nav-link" href="index.php?search=admin12&controller=PDOhome&action=selectUser">
                     <i class="fas fa-fw fa-table"></i>
                     <span>ListUser</span></a>
-            </li>
-               <li class="nav-item">
-                <a class="nav-link" href="index.php?controller=PDOhome&action=Pagination">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Pagination</span></a>
-            </li>
-            
                <li class="nav-item">
                 <a class="nav-link" href="index.php?controller=PDOhome&action=inportCSV">
                     <i class="fas fa-fw fa-table"></i>
@@ -77,8 +72,8 @@
              
                <li class="nav-item">
                 <a class="nav-link" href="index.php?&controller=PDOhome&action=sendmail">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>SendMail</span></a>
+                <i class="fas fa-fw fa-table"></i>
+                <span>SendMail</span></a>
             </li>
               
                <li class="nav-item">
@@ -185,6 +180,7 @@
         <script src="./public/js/sendmail.js"></script>
         <script src="./public/temblate/js/base.js"></script>
         <script src="./public/temblate/js/user.js"></script>
+        <script src="./public/js/jquery-ui.js"></script>
         
 
 
