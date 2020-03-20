@@ -1,0 +1,71 @@
+[13-Mar-2020 00:17:02 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method PDOhomecontroller::củl() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:8
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 8
+[13-Mar-2020 15:20:49 Asia/Krasnoyarsk] PHP Notice:  Undefined index: total in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/search.php on line 58
+[13-Mar-2020 15:20:49 Asia/Krasnoyarsk] PHP Notice:  Undefined index: total in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/search.php on line 65
+[13-Mar-2020 15:21:31 Asia/Krasnoyarsk] PHP Notice:  Undefined index: total in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/search.php on line 58
+[13-Mar-2020 15:21:31 Asia/Krasnoyarsk] PHP Notice:  Undefined index: total in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/search.php on line 65
+[13-Mar-2020 15:23:49 Asia/Krasnoyarsk] PHP Notice:  Undefined index: total in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/search.php on line 59
+[13-Mar-2020 15:23:49 Asia/Krasnoyarsk] PHP Notice:  Undefined index: total in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/search.php on line 66
+[13-Mar-2020 15:38:16 Asia/Krasnoyarsk] PHP Notice:  Undefined index: total in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/search.php on line 59
+[13-Mar-2020 15:38:16 Asia/Krasnoyarsk] PHP Notice:  Undefined index: total in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/search.php on line 66
+[13-Mar-2020 15:40:18 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 76
+[13-Mar-2020 16:12:21 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PDOquery::getAll(), 0 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 10 and exactly 1 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php:21
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php(10): PDOquery->getAll()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php(19): PDOuser->getUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): PDOhomecontroller->__construct()
+#3 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#4 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 21
+[13-Mar-2020 16:12:36 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PDOquery::getAll(), 0 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 10 and exactly 1 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php:21
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php(10): PDOquery->getAll()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php(19): PDOuser->getUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): PDOhomecontroller->__construct()
+#3 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#4 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 21
+[13-Mar-2020 16:13:14 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PDOquery::getAll(), 0 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 10 and exactly 1 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php:21
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php(10): PDOquery->getAll()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php(19): PDOuser->getUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): PDOhomecontroller->__construct()
+#3 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#4 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 21
+[13-Mar-2020 16:13:38 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PDOquery::getAll(), 0 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 10 and exactly 1 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php:21
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php(10): PDOquery->getAll()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php(19): PDOuser->getUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): PDOhomecontroller->__construct()
+#3 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#4 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 21
+[13-Mar-2020 16:13:50 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PDOquery::getAll(), 0 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 10 and exactly 1 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php:21
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php(10): PDOquery->getAll()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php(19): PDOuser->getUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): PDOhomecontroller->__construct()
+#3 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#4 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 21
+[13-Mar-2020 16:15:31 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 214
+[13-Mar-2020 16:15:32 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 214
+[13-Mar-2020 16:15:32 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 214
+[13-Mar-2020 16:15:32 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 214
+[13-Mar-2020 16:15:32 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 214
+[13-Mar-2020 16:15:33 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 214
+[13-Mar-2020 16:15:33 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 214
+[13-Mar-2020 16:15:33 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 214
+[13-Mar-2020 16:15:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 214
+[13-Mar-2020 16:15:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 214
+[13-Mar-2020 16:15:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 214
+[13-Mar-2020 16:24:04 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[13-Mar-2020 16:24:04 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[13-Mar-2020 16:24:14 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[13-Mar-2020 16:24:14 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[13-Mar-2020 16:24:22 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[13-Mar-2020 16:24:22 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5

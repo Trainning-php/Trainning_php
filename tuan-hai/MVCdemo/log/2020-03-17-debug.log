@@ -1,0 +1,529 @@
+[17-Mar-2020 14:37:38 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected '"' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 45
+[17-Mar-2020 15:16:40 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected '"/"' (T_CONSTANT_ENCAPSED_STRING) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:22:13 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'Users_indexcontroller' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 15:23:10 Asia/Krasnoyarsk] PHP Notice:  Undefined index: Controller in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 5
+[17-Mar-2020 15:23:10 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method controller::showdataUser() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:8
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 8
+[17-Mar-2020 15:23:26 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function controller::model(), 1 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php on line 10 and exactly 2 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:4
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php(10): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): homeController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 4
+[17-Mar-2020 15:24:50 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function controller::model(), 1 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php on line 10 and exactly 2 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:4
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php(10): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): homeController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 4
+[17-Mar-2020 15:26:35 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function controller::model(), 1 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php on line 10 and exactly 2 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:4
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php(10): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): homeController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 4
+[17-Mar-2020 15:26:39 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function controller::model(), 1 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php on line 10 and exactly 2 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:4
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php(10): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): homeController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 4
+[17-Mar-2020 15:26:39 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function controller::model(), 1 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php on line 10 and exactly 2 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:4
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php(10): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): homeController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 4
+[17-Mar-2020 15:26:40 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function controller::model(), 1 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php on line 10 and exactly 2 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:4
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php(10): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): homeController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 4
+[17-Mar-2020 15:26:40 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function controller::model(), 1 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php on line 10 and exactly 2 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:4
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php(10): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): homeController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 4
+[17-Mar-2020 15:26:40 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function controller::model(), 1 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php on line 10 and exactly 2 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:4
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php(10): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): homeController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 4
+[17-Mar-2020 15:27:26 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/biz/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:27:26 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/biz/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:30:20 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/biz/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:30:20 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/biz/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:30:38 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/biz/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:30:38 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/biz/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:31:15 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected 'const' (T_CONST) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 11
+[17-Mar-2020 15:33:42 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 12
+[17-Mar-2020 15:34:22 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'User' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:6
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php(10): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): homeController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 6
+[17-Mar-2020 15:34:33 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'User' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:6
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php(10): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): homeController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 6
+[17-Mar-2020 15:34:35 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'User' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:6
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php(10): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): homeController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 6
+[17-Mar-2020 15:36:28 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'User' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:6
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php(10): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): homeController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 6
+[17-Mar-2020 15:36:39 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'User' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:6
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php(10): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(7): homeController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 6
+[17-Mar-2020 15:37:54 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'User' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:6
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/home.php(10): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(8): homeController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 6
+[17-Mar-2020 15:39:39 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:39:39 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:39:40 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:39:40 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:39:42 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:39:42 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:39:42 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:39:42 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:39:44 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:39:44 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:39:46 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:39:46 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:39:48 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:39:48 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:40:09 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:40:09 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:40:57 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:40:57 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:08 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:08 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:33 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:33 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:33 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:33 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:34 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:34 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:34 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:34 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:34 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:34 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:34 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:34 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:34 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:41:34 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:42:50 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:42:50 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:43:25 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:43:25 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:03 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:03 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:04 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:04 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:04 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:04 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:04 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:04 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:05 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:05 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:05 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:05 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:05 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:05 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:05 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:05 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:29 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:29 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:30 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:30 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:30 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:30 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:30 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:30 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:43 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:43 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:58 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:44:58 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:45:03 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:45:03 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:47:07 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:47:07 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:47:17 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:47:17 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:48:34 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:48:34 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:48:54 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:48:54 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:49:12 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:49:12 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:49:26 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:49:26 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[17-Mar-2020 15:57:03 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 15:58:10 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 15:58:46 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 15:58:48 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 15:58:48 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 15:58:48 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 15:58:49 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 15:58:49 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 15:58:49 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 15:58:49 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 15:59:21 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 15:59:23 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 15:59:23 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:00:35 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:45 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:46 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:46 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:46 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:46 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:46 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:46 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:47 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:47 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:47 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:47 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:48 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:48 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:48 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:48 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:01:48 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:02:35 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:02:41 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:02:42 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:02:42 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:03:01 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:03:22 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:03:29 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'indexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:03:39 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'IndexController' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 7
+[17-Mar-2020 16:13:21 Asia/Krasnoyarsk] PHP Warning:  require_once(./controller/IndexhomeController.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 3
+[17-Mar-2020 16:13:21 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './controller/IndexhomeController.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 3
+[17-Mar-2020 16:13:48 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'User' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(11): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(8): IndexController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 7
+[17-Mar-2020 16:14:35 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'User' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(11): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(8): IndexController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 7
+[17-Mar-2020 16:14:42 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'User' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(11): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(8): IndexController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 7
+[17-Mar-2020 16:14:42 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'User' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(11): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(8): IndexController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 7
+[17-Mar-2020 16:14:43 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Class 'User' not found in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php:7
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(11): controller->model('User')
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(8): IndexController->__construct()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 7
+[17-Mar-2020 16:24:58 Asia/Krasnoyarsk] PHP Warning:  require_once(./views/template/Trangchu.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:24:58 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './views/template/Trangchu.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:25:22 Asia/Krasnoyarsk] PHP Warning:  require_once(./views/template/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:25:22 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './views/template/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:25:50 Asia/Krasnoyarsk] PHP Warning:  require_once(./views/template/user.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:25:50 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './views/template/user.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:29:33 Asia/Krasnoyarsk] PHP Warning:  require_once(./views/template/user.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:29:33 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './views/template/user.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:29:34 Asia/Krasnoyarsk] PHP Warning:  require_once(./views/template/user.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:29:34 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './views/template/user.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:29:34 Asia/Krasnoyarsk] PHP Warning:  require_once(./views/template/user.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:29:34 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './views/template/user.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:29:34 Asia/Krasnoyarsk] PHP Warning:  require_once(./views/template/user.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:29:34 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './views/template/user.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:29:35 Asia/Krasnoyarsk] PHP Warning:  require_once(./views/template/user.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:29:35 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './views/template/user.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 16:36:07 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/user.php on line 2
+[17-Mar-2020 16:36:26 Asia/Krasnoyarsk] PHP Warning:  require_once(./views/pages/template/listUser.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/user.php on line 2
+[17-Mar-2020 16:36:26 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './views/pages/template/listUser.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/user.php on line 2
+[17-Mar-2020 16:40:09 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 31
+[17-Mar-2020 16:40:09 Asia/Krasnoyarsk] PHP Warning:  PDO::prepare() expects at least 1 parameter, 0 given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 32
+[17-Mar-2020 16:40:09 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php:33
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php(14): Users_dbtable_Users->getList()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(14): User->getlistUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): IndexController->showdataUser()
+#3 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#4 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 33
+[17-Mar-2020 16:41:14 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php:34
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php(14): Users_dbtable_Users->getList()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(14): User->getlistUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): IndexController->showdataUser()
+#3 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#4 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 34
+[17-Mar-2020 16:42:41 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php:34
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php(14): Users_dbtable_Users->getList()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(14): User->getlistUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): IndexController->showdataUser()
+#3 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#4 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 34
+[17-Mar-2020 16:43:08 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php:34
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php(14): Users_dbtable_Users->getList()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(14): User->getlistUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): IndexController->showdataUser()
+#3 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#4 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 34
+[17-Mar-2020 16:43:27 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php:26
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php(14): Users_dbtable_Users->getList()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(14): User->getlistUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): IndexController->showdataUser()
+#3 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#4 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 26
+[17-Mar-2020 16:43:44 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php:26
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php(14): Users_dbtable_Users->getList()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(14): User->getlistUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): IndexController->showdataUser()
+#3 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#4 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 26
+[17-Mar-2020 16:45:13 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php:23
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php(14): Users_dbtable_Users->getList()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(14): User->getlistUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): IndexController->showdataUser()
+#3 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#4 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 23
+[17-Mar-2020 16:46:06 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: value in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 22
+[17-Mar-2020 16:48:25 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php on line 17
+[17-Mar-2020 16:49:31 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: selectUser in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/pages/listUser.php on line 1
+[17-Mar-2020 16:49:31 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/pages/listUser.php on line 1
+[17-Mar-2020 16:51:07 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/pages/listUser.php on line 1
+[17-Mar-2020 16:53:58 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/pages/listUser.php on line 1
+[17-Mar-2020 16:56:48 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/pages/listUser.php on line 1
+[17-Mar-2020 16:57:50 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/pages/listUser.php on line 1
+[17-Mar-2020 17:04:38 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/pages/listUser.php on line 1
+[17-Mar-2020 17:10:16 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/pages/listUser.php on line 1
+[17-Mar-2020 17:11:00 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/pages/listUser.php on line 1
+[17-Mar-2020 17:11:46 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/pages/listUser.php on line 2
+[17-Mar-2020 17:11:46 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/pages/listUser.php on line 2
+[17-Mar-2020 17:15:02 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/pages/listUser.php on line 1
+[17-Mar-2020 17:15:22 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/pages/listUser.php on line 1
+[17-Mar-2020 17:18:37 Asia/Krasnoyarsk] PHP Warning:  require_once(./views/pages/template/listUser.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/user.php on line 8
+[17-Mar-2020 17:18:37 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './views/pages/template/listUser.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/user.php on line 8
+[17-Mar-2020 17:19:52 Asia/Krasnoyarsk] PHP Warning:  require_once(./views/pages/template/pageslistUser.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/user.php on line 8
+[17-Mar-2020 17:19:52 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './views/pages/template/pageslistUser.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/user.php on line 8
+[17-Mar-2020 17:20:39 Asia/Krasnoyarsk] PHP Notice:  Undefined index: pages in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/user.php on line 8
+[17-Mar-2020 17:20:39 Asia/Krasnoyarsk] PHP Warning:  require_once(./views/pages/template/page/.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/user.php on line 8
+[17-Mar-2020 17:20:39 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './views/pages/template/page/.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/user.php on line 8
+[17-Mar-2020 17:21:58 Asia/Krasnoyarsk] PHP Warning:  require_once(./views/pages/template/page/user.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 17:21:58 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './views/pages/template/page/user.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 17:22:23 Asia/Krasnoyarsk] PHP Warning:  require_once(./views/pages/template/page/user.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11
+[17-Mar-2020 17:22:23 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './views/pages/template/page/user.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 11

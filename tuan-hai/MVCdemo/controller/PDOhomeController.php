@@ -1,5 +1,5 @@
 <?php 
-
+include_once './public/curl1.php';
 require_once 'config/controller.php';
 require_once 'src/PHPMailer.php';
 require_once 'src/Exception.php';
@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
 
-class PDOhomecontroller extends controller
+class PDOhomeController extends controller
 
 {
     private $modelUserPDO;
@@ -82,6 +82,7 @@ class PDOhomecontroller extends controller
                 $this->views("Trangchu", [
                     "pages"      => "search",
                     "DATA"       => $this->getAllUser,
+                    "total"      => $this->modelUserPDO->TotalP(),
                 ]);
 
             }else {
@@ -98,6 +99,7 @@ class PDOhomecontroller extends controller
                 $this->views("Trangchu", [
                     "pages"      => "search",
                     "DATA"       => $data ,
+                    "total"      => $this->modelUserPDO->TotalP(),
                 ]);
             }
         }
@@ -153,6 +155,7 @@ class PDOhomecontroller extends controller
     
                     }
                 }
+                return;
             }
             $this->views("Trangchu",[
                 "pages" => "login",
@@ -200,7 +203,9 @@ class PDOhomecontroller extends controller
             if (isset($_POST["id"])) 
             { 
                 $id    = $_POST["id"];
-                $data1 = $this->modelUserPDO->selectId($id);
+                $data1 = [];//$this->modelUserPDO->selectId($id);
+                
+                $data   =[];
                 foreach ($data1 as $key) 
                 {
                     $data["name"]    = $key["username"];
@@ -241,6 +246,26 @@ class PDOhomecontroller extends controller
             ]);
         }
         public function curlPost(){
+            $curl = new cURL();
+            $form_data=[];
+            if (isset($_POST['submit'])) {
+                $username  = $_POST['username'];
+                $password  = $_POST['password'];
+                $address   = $_POST['address'];
+                $email     = $_POST['email'];
+                $form_data = array('username'=> $username,
+                                   'password'=> $password,
+                                   'address' => $address,
+                                   'email'   => $email,
+                            );
+                
+                $curl1  = "http://127.0.1.1/Trainning_php/tuan-hai/MVCdemo/index.php?Controller=PDOhome&action=curlPost";
+                
+                $html   = $curl->post($curl1,$this->modelUserPDO->insertUser($username,$password,$address,$email));
+                
+                
+            }
+
             $this->views("Trangchu",[
                 "pages" =>"curlPost", 
             ]);

@@ -1,0 +1,538 @@
+[19-Mar-2020 09:49:31 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method homeController::selectUser() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:9
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 9
+[19-Mar-2020 09:50:37 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 09:50:37 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 10:01:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 253
+[19-Mar-2020 10:01:17 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 253
+[19-Mar-2020 10:02:06 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 254
+[19-Mar-2020 10:03:30 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 254
+[19-Mar-2020 10:12:13 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_real_escape_string() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php:250
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): PDOhomeController->curlPost()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#2 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 250
+[19-Mar-2020 10:41:24 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 260
+[19-Mar-2020 10:41:24 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 10:42:06 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 10:48:35 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 10:52:32 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function post() on string in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php:261
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): PDOhomeController->curlPost()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#2 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:53:25 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function post() on string in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php:261
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): PDOhomeController->curlPost()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#2 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:53:32 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function post() on string in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php:261
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): PDOhomeController->curlPost()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#2 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:53:35 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function post() on string in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php:261
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): PDOhomeController->curlPost()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#2 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:48 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:48 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:49 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:49 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:49 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:49 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:50 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:50 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:50 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:50 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:50 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:50 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:50 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:50 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:51 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:52 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:53 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:53 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:53 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:53 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:53 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:53 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:53 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:53 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:53 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:53 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:56 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:58 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:58 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:58 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:58 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:58 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:58 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:58 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:58 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:58 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:00 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:00 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:01 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:01 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:01 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:01 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:02 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:02 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:02 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:02 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:03 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:03 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:03 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:03 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:04 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:05 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:17 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:17 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:17 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:17 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:17 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:17 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:17 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:17 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:17 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:17 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:18 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:18 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:19 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:19 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:19 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:19 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:20 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:20 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:20 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:20 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:20 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:20 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:20 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:20 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:21 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:22 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:23 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:23 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:23 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:23 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:23 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:23 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:23 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:23 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:23 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:23 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:23 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:25 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:26 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:28 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:28 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:28 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:28 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:28 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:28 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:28 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:28 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:29 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:30 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:31 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:31 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:31 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:31 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:32 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:32 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:32 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:33 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:33 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:33 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:33 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:33 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:35 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:48 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:48 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:49 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:49 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:49 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 10:55:49 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: form_data in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 261
+[19-Mar-2020 11:15:14 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 11:19:00 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 11:19:10 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 11:19:57 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 11:20:11 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PDOquery::insertDataUser(), 0 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 262 and exactly 1 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php:85
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php(262): PDOquery->insertDataUser()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): PDOhomeController->curlPost()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 85
+[19-Mar-2020 11:27:06 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 11:27:56 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 11:32:33 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 11:33:44 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 11:33:50 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 11:45:06 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 11:46:33 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 12:51:26 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 13:09:44 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 13:16:29 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 13:16:31 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 13:21:44 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 13:25:08 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 13:28:37 Asia/Krasnoyarsk] PHP Notice:  Undefined index: address in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 252
+[19-Mar-2020 13:28:37 Asia/Krasnoyarsk] PHP Notice:  Undefined index: email in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 253
+[19-Mar-2020 13:28:37 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 13:28:50 Asia/Krasnoyarsk] PHP Notice:  Undefined index: address in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 252
+[19-Mar-2020 13:28:50 Asia/Krasnoyarsk] PHP Notice:  Undefined index: email in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 253
+[19-Mar-2020 13:28:50 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 13:28:56 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 13:30:14 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 13:31:22 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 13:34:40 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 13:35:37 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 13:35:37 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 13:35:59 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PDOuser::insertUser(), 0 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 263 and exactly 1 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php:36
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php(263): PDOuser->insertUser()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): PDOhomeController->curlPost()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 36
+[19-Mar-2020 13:36:31 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 14:11:10 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 14:42:33 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 15:07:12 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 15:16:03 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 15:16:15 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 15:21:14 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 15:28:34 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 15:29:02 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:03:14 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:03:14 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:06:03 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:06:03 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:08:45 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:08:45 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:10:34 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:10:34 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:10:50 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:10:50 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:10:55 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:10:55 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:11:02 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:11:38 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:12:20 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:14:39 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:16:39 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:16:39 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:16:39 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:16:39 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:17:19 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 264
+[19-Mar-2020 16:17:54 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function PDOuser::insertUser(), 0 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 266 and exactly 1 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php:36
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php(266): PDOuser->insertUser()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): PDOhomeController->curlPost()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 36
+[19-Mar-2020 16:19:20 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php on line 264
+[19-Mar-2020 16:19:54 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:20:10 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:20:58 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:22:44 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute() expects at most 1 parameter, 4 given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:23:01 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute() expects at most 1 parameter, 4 given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:23:02 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute() expects at most 1 parameter, 4 given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:23:03 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute() expects at most 1 parameter, 4 given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:23:10 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute() expects at most 1 parameter, 4 given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:23:43 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:25:21 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:29:15 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:29:15 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:29:33 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:29:33 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:29:37 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:29:37 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:29:59 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:29:59 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:35:43 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:35:43 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:36:04 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:36:04 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:36:23 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:39:27 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method PDOuser::insertDataUsera() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php:38
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/PDOhomeController.php(264): PDOuser->insertUser(Array)
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): PDOhomeController->curlPost()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 38
+[19-Mar-2020 16:40:10 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:40:10 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:40:45 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 37
+[19-Mar-2020 16:40:45 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:40:45 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:41:04 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:41:22 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 37
+[19-Mar-2020 16:41:22 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:41:53 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:42:10 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 38
+[19-Mar-2020 16:42:10 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 38
+[19-Mar-2020 16:42:10 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 38
+[19-Mar-2020 16:42:10 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 38
+[19-Mar-2020 16:42:10 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:42:51 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/PDOuser.php on line 38
+[19-Mar-2020 16:43:08 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:43:21 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:43:47 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:45:00 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:45:49 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:52:44 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:53:00 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:53:09 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:53:27 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:53:48 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:54:14 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:54:25 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:57:20 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 16:57:27 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 17:04:08 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 17:04:24 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 17:04:32 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 17:04:53 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 17:05:00 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 17:05:29 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 17:05:38 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 17:05:41 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 17:05:47 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 17:18:24 Asia/Krasnoyarsk] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 89
+[19-Mar-2020 17:21:22 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:22 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:30 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:30 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:30 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:30 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:30 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:30 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:30 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:30 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:31 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:31 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:33 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:33 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:34 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:34 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:39 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:39 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:40 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:40 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:40 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:40 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:40 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:40 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:42 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:42 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:43 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[19-Mar-2020 17:21:43 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5

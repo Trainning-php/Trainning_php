@@ -49,8 +49,8 @@ class cURL {
                 curl_setopt($process, CURLOPT_HTTPHEADER, $this->headers);
                 curl_setopt($process, CURLOPT_HEADER, 1);
                 curl_setopt($process, CURLOPT_USERAGENT, $this->user_agent);
-                if ($this->cookies == TRUE) curl_setopt($process, CURLOPT_COOKIEFILE, $this->cookie_file);
-                if ($this->cookies == TRUE) curl_setopt($process, CURLOPT_COOKIEJAR, $this->cookie_file);
+                if ($this->cookies == TRUE) curl_setopt($process, CURLOPT_COOKIEFILE,    $this->cookie_file);
+                if ($this->cookies == TRUE) curl_setopt($process, CURLOPT_COOKIEJAR,    $this->cookie_file);
                 curl_setopt($process, CURLOPT_ENCODING , $this->compression);
                 curl_setopt($process, CURLOPT_TIMEOUT, 30);
                 if ($this->proxy) curl_setopt($process, CURLOPT_PROXY, $this->proxy);

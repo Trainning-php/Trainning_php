@@ -25,44 +25,46 @@
                     <th scope="col">EMAIL</th>
                 </tr>
             </thead>
-            <?php $id=1;foreach ($data["DATA"] as $key): ?>
+            <?php foreach ($data["DATA"] as $key=>$value){ ?>
                 <tbody>
                     <tr>
                         <th scope="row">
-                            <?php echo $id++ ?>
+                            <?php echo ++$key ?>
                         </th>
                         <td>
-                            <?php echo $key['id'] ?>
+                            <?php echo $value['id'] ?>
                         </td>
                         <td>
-                            <?php echo $key['username'] ?>
+                            <?php echo $value['username'] ?>
                         </td>
                         <td>
-                            <?php echo $key['password'] ?>
+                            <?php echo $value['password'] ?>
                         </td>
                         <td>
-                            <?php echo $key['address'] ?>
+                            <?php echo $value['address'] ?>
                         </td>
                          <td>
-                            <?php echo $key['email'] ?>
+                            <?php echo $value['email'] ?>
                         </td>
                     </tr>
                 </tbody>
-                <?php endforeach ?>
+                <?php } ?>
         </table>
         <div style="display: display ">
             <ul class="pagination">
                 <li class="paginate_button page-item previous disabled" id="dataTable_previous">
                     <a href="index.php?page=1&controller=PDOhome&action=search " class="nav-link" aria-controls="dataTable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
                 </li>
+
                 <?php for($p=1; $p<=$data['total']; $p++){?>
                     <li class="paginate_button page-item active">
                         <a href="<?= '?page='.$p.'&controller=PDOhome&action=search';?>" aria-controls="dataTable" data-dt-idx="1" tabindex="0" class="page-link">
                             <?= $p; ?>
                         </a>
                     </li>
-                    <?php }?>
-                        <li class="paginate_button page-item next" id="dataTable_next"><a href="<?= '?page='.$data['total'].'&controller=PDOhome&action=search';?>" aria-controls="dataTable" data-dt-idx="7" tabindex="0" class="page-link">Last</a></li>
+                <?php }?>
+                    <li class="paginate_button page-item next" id="dataTable_next"><a href="<?= '?page='.$data['total'].'&controller=PDOhome&action=search';?>" aria-controls="dataTable" data-dt-idx="7" tabindex="0" class="page-link">Last</a>
+                    </li>
             </ul>
         </div>   
      
