@@ -11,8 +11,6 @@ function BaseController()
         $("#data_password").text(data.password);
         $("#data_email").text(data.email);
     }
-    this.showOverla =function(){
-        
-    }
+  
 }
 var BaseController = new BaseController();

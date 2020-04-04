@@ -50,40 +50,40 @@
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="index.php?controller=PDOhome&action=login">Login</a>
+                        <a class="collapse-item" href="index.php?Controller=PDOhome&action=login">Login</a>
                         <a class="collapse-item" href="register.html">Register</a>
                     </div>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.php?&controller=PDOhome&action=search">
+                <a class="nav-link" href="index.php?&Controller=PDOhome&action=search">
                     <i class="fas fa-fw fa-table"></i>
                     <span>search</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.php?search=admin12&controller=PDOhome&action=selectUser">
+                <a class="nav-link" href="index.php?search=admin12&Controller=PDOhome&action=selectUser">
                     <i class="fas fa-fw fa-table"></i>
                     <span>ListUser</span></a>
                <li class="nav-item">
-                <a class="nav-link" href="index.php?controller=PDOhome&action=inportCSV">
+                <a class="nav-link" href="index.php?Controller=PDOhome&action=inportCSV">
                     <i class="fas fa-fw fa-table"></i>
                     <span>InportCSV</span></a>
             </li>
              
                <li class="nav-item">
-                <a class="nav-link" href="index.php?&controller=PDOhome&action=sendmail">
+                <a class="nav-link" href="index.php?&Controller=PDOhome&action=sendmail">
                 <i class="fas fa-fw fa-table"></i>
                 <span>SendMail</span></a>
             </li>
               
                <li class="nav-item">
-                <a class="nav-link" href="index.php?&controller=PDOhome&action=demoAjax">
+                <a class="nav-link" href="index.php?&Controller=PDOhome&action=demoAjax">
                     <span class="icon add"></span>
                     <i class="fas fa-fw fa-table"></i>
                     <span>formData</span></a>
             </li>
                 <li class="nav-item">
-                <a class="nav-link" href="index.php?&controller=PDOhome&action=searchJS">
+                <a class="nav-link" href="index.php?&Controller=PDOhome&action=searchJS">
                     <span class="icon add"></span>
                     <i class="fas fa-fw fa-table"></i>
                     <span>searchJS</span></a>

@@ -18,3 +18,6 @@ Stack trace:
 #5 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
 #6 {main}
   thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/public/curl1.php on line 46
+[12-Mar-2020 17:00:07 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected '}' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/curl.php on line 28
+[12-Mar-2020 17:00:17 Asia/Krasnoyarsk] PHP Warning:  urlencode() expects parameter 1 to be string, array given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/curl.php on line 29
+[12-Mar-2020 17:00:37 Asia/Krasnoyarsk] PHP Warning:  urlencode() expects parameter 1 to be string, array given in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/curl.php on line 29

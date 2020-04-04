@@ -1,0 +1,7 @@
+[16-Mar-2020 09:26:04 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/User.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[16-Mar-2020 09:26:04 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/User.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 5
+[16-Mar-2020 09:36:29 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected '" ORDER BY  id ASC LIMIT"' (T_CONSTANT_ENCAPSED_STRING) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 45
+[16-Mar-2020 09:36:57 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected '" ORDER BY  id ASC LIMIT"' (T_CONSTANT_ENCAPSED_STRING) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 45
+[16-Mar-2020 09:37:10 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected '"' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 45
+[16-Mar-2020 09:37:18 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected '','' (T_CONSTANT_ENCAPSED_STRING) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 68
+[16-Mar-2020 09:37:53 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/PDO.php on line 68

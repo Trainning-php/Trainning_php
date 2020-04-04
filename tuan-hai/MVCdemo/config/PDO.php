@@ -12,12 +12,14 @@ class PDOquery extends ConnectPDO
             $connect         = new connectPDO();
             $this->conn      = $connect->connectDB();
         }
-         public function querySql($sql,$value){
+        
+        public function querySql($sql,$value){
             $result    = $this->conn->prepare($sql);
             $result->execute($value);
             $data     = $result->fetchAll(PDO::FETCH_ASSOC);
             return $data;
         }
+
         public function getAll() 
         {
             $limit     = 2;
@@ -27,9 +29,13 @@ class PDOquery extends ConnectPDO
                 $page  = $_GET['page'];
             }
             $start     = ($page-1)*$limit;
-            $sql      = "$this->sqlQuery ORDER BY  id ASC LIMIT $start,$limit";
+            $sql      = $this->sqlQuery;
+
+            $sql .=  ' ORDER BY  id ASC LIMIT ' . $start . ',' .$limit;
+
             return self::querySql($sql,null);
         }
+
         public function search($keyword) 
         {
             $limit     = 2;
@@ -39,9 +45,11 @@ class PDOquery extends ConnectPDO
                 $page  = $_GET['page'];
             }
             $start     = ($page-1)*$limit;
-            $sql      = " $this->sqlQuery user WHERE username REGEXP '$keyword' OR  address REGEXP '$keyword' OR email REGEXP '$keyword' OR password REGEXP '$keyword' ORDER BY  id ASC LIMIT $start,$limit";
+            $sql      =  $this->sqlQuery ;
+            $sql.= " WHERE username REGEXP '$keyword' OR  address REGEXP '$keyword' OR email REGEXP '$keyword' OR password REGEXP '$keyword' ORDER BY  id ASC LIMIT $start,$limit";
            return self::querySql($sql,null);
         }
+
         public function totalPages()
         {
             $limit         = 2;
@@ -62,7 +70,8 @@ class PDOquery extends ConnectPDO
                 $page  = $_GET['page'];
             }
                 $start     = ($page-1)*$limit;
-                $sqlLimit  = "$this->sqlQuery ORDER BY id ASC LIMIT $start, $limit";
+                $sqlLimit  = $this->sqlQuery ;
+                $sqlLimit  .= " ORDER BY id ASC LIMIT $start,$limit";
                 return self::querySql($sqlLimit,null);
         }
 
@@ -73,6 +82,14 @@ class PDOquery extends ConnectPDO
             $stm->execute($data);
             return $stm;
         }
+        public function insertDataUser($data)
+        {
+            $query = "INSERT INTO user (username,password,address,email) VALUES (?,?,?,?)";
+            $stm   = $this->conn->prepare($query);
+            $stm   = $stm->execute($data);
+            return $stm;
+        }
+
         public function delete($id)
         {
             $query = "DELETE FROM user WHERE id = ? ";
@@ -80,9 +97,10 @@ class PDOquery extends ConnectPDO
             $res->execute([$id]);
             return $res;
         }
+
         public function selectByID($id)
         {
-            $query = " $this->sqlQuery WHERE id = ?";
+            $query =  $this->sqlQuery."WHERE id = ?";
             return  self::querySql($query,[$id]);
         }
 

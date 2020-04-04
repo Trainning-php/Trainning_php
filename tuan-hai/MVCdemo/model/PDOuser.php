@@ -33,5 +33,9 @@ class PDOuser extends PDOquery
     public function selectId($id){
         return $this->selectByID($id);
     }
+    public function insertUser($username,$password,$address,$email){
+
+        return $this->insertDataUser([$username,$password,$address,$email]);
+    }
 }
  ?>

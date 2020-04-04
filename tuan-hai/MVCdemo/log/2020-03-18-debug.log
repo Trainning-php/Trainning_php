@@ -1,0 +1,329 @@
+[18-Mar-2020 13:09:56 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method homeController::selectUser() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:9
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 9
+[18-Mar-2020 13:10:15 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method homeController::selectUser() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:9
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 9
+[18-Mar-2020 13:10:28 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method homeController::showUser() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:9
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 9
+[18-Mar-2020 13:10:37 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method homeController::showdataUser() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:9
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 9
+[18-Mar-2020 13:21:19 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:21:19 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:21:19 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:21:44 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:21:44 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:21:44 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:21:46 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:21:46 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:21:46 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:21:56 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:21:56 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:21:56 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:23:00 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:23:57 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:24:12 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:24:12 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:28:59 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:28:59 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:28:59 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:28:59 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:29:25 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:29:25 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: value in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:29:25 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: value in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:29:25 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: value in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:29:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: value in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:29:34 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: value in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:29:53 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: value in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:29:53 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: value in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:35:05 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:35:05 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:35:44 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:35:44 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:35:59 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:35:59 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:36:10 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:37:11 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:37:11 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:37:11 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:37:11 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:38:03 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:38:03 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:38:03 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:38:03 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:41:56 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 1
+[18-Mar-2020 13:42:58 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:42:58 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:42:58 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:39 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'username' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:51 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'username' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:51 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'username' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:51 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'username' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:51 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'username' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:51 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'username' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:51 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'username' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:51 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'username' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:51 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'username' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:51 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'username' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:51 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'username' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:51 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'username' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:51 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'username' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:44:51 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'username' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:46:48 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:09 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:10 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:17 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'id' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:17 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'id' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:17 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'id' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:17 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'id' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:17 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'id' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:17 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'id' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:17 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'id' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:17 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'id' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:17 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'id' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:17 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'id' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:17 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'id' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:17 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'id' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:47:17 Asia/Krasnoyarsk] PHP Warning:  Illegal string offset 'id' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 3
+[18-Mar-2020 13:48:48 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:48:48 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:48:48 Asia/Krasnoyarsk] PHP Notice:  Array to string conversion in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:48:57 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:48:57 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 13:48:57 Asia/Krasnoyarsk] PHP Notice:  Trying to get property 'id' of non-object in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 2
+[18-Mar-2020 14:06:43 Asia/Krasnoyarsk] PHP Notice:  Undefined property: Users_dbtable_Users::$TABLE_NAME in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 19
+[18-Mar-2020 14:06:43 Asia/Krasnoyarsk] PHP Notice:  Undefined property: Users_dbtable_Users::$TABLE_NAME in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 19
+[18-Mar-2020 14:07:11 Asia/Krasnoyarsk] PHP Notice:  Undefined property: Users_dbtable_Users::$TABLE_NAME in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 19
+[18-Mar-2020 14:07:11 Asia/Krasnoyarsk] PHP Notice:  Undefined property: Users_dbtable_Users::$TABLE_NAME in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 19
+[18-Mar-2020 14:27:20 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected ']' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php on line 21
+[18-Mar-2020 14:27:34 Asia/Krasnoyarsk] PHP Notice:  Undefined property: User::$conn in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 17
+[18-Mar-2020 14:27:34 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php:17
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(16): User->getlistBooks()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): IndexController->showdataUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 17
+[18-Mar-2020 14:27:52 Asia/Krasnoyarsk] PHP Notice:  Undefined property: User::$conn in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 17
+[18-Mar-2020 14:27:52 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php:17
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(16): User->getlistBooks()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): IndexController->showdataUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 17
+[18-Mar-2020 14:27:53 Asia/Krasnoyarsk] PHP Notice:  Undefined property: User::$conn in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 17
+[18-Mar-2020 14:27:53 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php:17
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(16): User->getlistBooks()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): IndexController->showdataUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 17
+[18-Mar-2020 14:27:53 Asia/Krasnoyarsk] PHP Notice:  Undefined property: User::$conn in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 17
+[18-Mar-2020 14:27:53 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php:17
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(16): User->getlistBooks()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): IndexController->showdataUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 17
+[18-Mar-2020 14:27:53 Asia/Krasnoyarsk] PHP Notice:  Undefined property: User::$conn in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 17
+[18-Mar-2020 14:27:53 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php:17
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(16): User->getlistBooks()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): IndexController->showdataUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 17
+[18-Mar-2020 14:28:12 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: resultUsers in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php on line 19
+[18-Mar-2020 14:28:12 Asia/Krasnoyarsk] PHP Notice:  Undefined index: select in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 10
+[18-Mar-2020 14:28:12 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 10
+[18-Mar-2020 14:29:09 Asia/Krasnoyarsk] PHP Notice:  Undefined index: select in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 10
+[18-Mar-2020 14:29:09 Asia/Krasnoyarsk] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 10
+[18-Mar-2020 15:12:35 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method homeController::selectUser() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:9
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 9
+[18-Mar-2020 15:13:37 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method homeController::selectUser() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:9
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 9
+[18-Mar-2020 15:13:38 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method homeController::selectUser() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:9
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 9
+[18-Mar-2020 15:13:38 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method homeController::selectUser() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:9
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 9
+[18-Mar-2020 15:13:38 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method homeController::selectUser() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:9
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 9
+[18-Mar-2020 15:14:02 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method homeController::selectUser() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:9
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 9
+[18-Mar-2020 15:14:06 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/biz/PDOuser.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 6
+[18-Mar-2020 15:14:06 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/biz/PDOuser.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 6
+[18-Mar-2020 15:14:54 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/biz/PDOuser.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 6
+[18-Mar-2020 15:14:54 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/biz/PDOuser.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 6
+[18-Mar-2020 15:15:50 Asia/Krasnoyarsk] PHP Warning:  require_once(./model/biz/PDOuser.php): failed to open stream: No such file or directory in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 6
+[18-Mar-2020 15:15:50 Asia/Krasnoyarsk] PHP Fatal error:  require_once(): Failed opening required './model/biz/PDOuser.php' (include_path='.:/usr/share/php') in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/controller.php on line 6
+[18-Mar-2020 15:15:59 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method homeController::selectUser() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:9
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 9
+[18-Mar-2020 15:16:01 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught Error: Call to undefined method homeController::selectUser() in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php:9
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once()
+#1 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php on line 9
+[18-Mar-2020 16:14:34 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected '$', expecting function (T_FUNCTION) or const (T_CONST) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 11
+[18-Mar-2020 16:17:43 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: keyword in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 38
+[18-Mar-2020 16:17:43 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: keyword in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 38
+[18-Mar-2020 16:17:43 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: keyword in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 38
+[18-Mar-2020 16:18:05 Asia/Krasnoyarsk] PHP Warning:  Declaration of User::getlistBooks() should be compatible with Users_dbtable_Users::getListBooks($keyword) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 7
+[18-Mar-2020 16:21:34 Asia/Krasnoyarsk] PHP Warning:  Declaration of User::getlistBooks() should be compatible with Users_dbtable_Users::getListBooks($keyword) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 7
+[18-Mar-2020 16:21:51 Asia/Krasnoyarsk] PHP Warning:  Declaration of User::getlistBooks() should be compatible with Users_dbtable_Users::getListBooks($keyword) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 7
+[18-Mar-2020 16:21:51 Asia/Krasnoyarsk] PHP Warning:  Declaration of User::getlistBooks() should be compatible with Users_dbtable_Users::getListBooks($keyword) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 7
+[18-Mar-2020 16:21:52 Asia/Krasnoyarsk] PHP Warning:  Declaration of User::getlistBooks() should be compatible with Users_dbtable_Users::getListBooks($keyword) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 7
+[18-Mar-2020 16:21:52 Asia/Krasnoyarsk] PHP Warning:  Declaration of User::getlistBooks() should be compatible with Users_dbtable_Users::getListBooks($keyword) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 7
+[18-Mar-2020 16:21:52 Asia/Krasnoyarsk] PHP Warning:  Declaration of User::getlistBooks() should be compatible with Users_dbtable_Users::getListBooks($keyword) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 7
+[18-Mar-2020 16:23:43 Asia/Krasnoyarsk] PHP Warning:  Declaration of User::getlistBooks() should be compatible with Users_dbtable_Users::getListBooks($keyword) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 7
+[18-Mar-2020 16:23:53 Asia/Krasnoyarsk] PHP Warning:  Declaration of User::getlistBooks() should be compatible with Users_dbtable_Users::getListBooks($keyword) in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 7
+[18-Mar-2020 16:25:22 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Users_dbtable_Users::getListBooks(), 0 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php on line 16 and exactly 1 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php:30
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(16): Users_dbtable_Users->getListBooks()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): IndexController->showdataUser()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#3 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 30
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: id in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 12
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: username in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 13
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: id in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 12
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: username in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 13
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: id in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 12
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: username in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 13
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: id in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 12
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: username in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 13
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: id in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 12
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: username in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 13
+[18-Mar-2020 17:03:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:04:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: username in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 13
+[18-Mar-2020 17:04:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:04:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: username in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 13
+[18-Mar-2020 17:04:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:04:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: username in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 13
+[18-Mar-2020 17:04:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:04:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: username in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 13
+[18-Mar-2020 17:04:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:04:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: username in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 13
+[18-Mar-2020 17:04:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:04:23 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:04:23 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:04:23 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:04:23 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:04:23 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /var/www/html/Trainning_php/tuan-hai/MVCdemo/views/pages/template/page/listUser.php on line 14
+[18-Mar-2020 17:15:33 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected ')' in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 32
+[18-Mar-2020 17:19:54 Asia/Krasnoyarsk] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Users_dbtable_Users::getListBooks(), 0 passed in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php on line 17 and exactly 1 expected in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php:27
+Stack trace:
+#0 /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/biz/User.php(17): Users_dbtable_Users->getListBooks()
+#1 /var/www/html/Trainning_php/tuan-hai/MVCdemo/controller/IndexController.php(16): User->getlistBook()
+#2 /var/www/html/Trainning_php/tuan-hai/MVCdemo/config/app.php(9): IndexController->showdataUser()
+#3 /var/www/html/Trainning_php/tuan-hai/MVCdemo/index.php(10): require_once('/var/www/html/T...')
+#4 {main}
+  thrown in /var/www/html/Trainning_php/tuan-hai/MVCdemo/model/dbtable/Users.php on line 27

@@ -28,7 +28,7 @@
                        <p><?php if (property_exists($data['error'],'password')) echo $data['error']->password ?> </p>
                     </div>
                    
-                    <input class="btn btn-primary btn-user btn-block" id="clickformlogin" type="submit" name="submit" value="login">
+                    <input class="btn btn-primary btn-user btn-block" id="clickformlogin" type="submit" name="submit" value="login" >
                     </input>
                     <hr>
                     <a href="index.html" class="btn btn-google btn-user btn-block">
