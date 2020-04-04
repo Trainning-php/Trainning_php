@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>SB Admin 2 - Dashboard</title>
     <link rel="shortcut icon" href="#">
     <link href="./public/css/jquery-ui.css" rel="stylesheet" type="text/css">
@@ -51,40 +50,40 @@
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="index.php?Controller=PDOhome&action=login">Login</a>
+                        <a class="collapse-item" href="index.php?Controller=Index&action=login">Login</a>
                         <a class="collapse-item" href="register.html">Register</a>
                     </div>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.php?&Controller=PDOhome&action=search">
+                <a class="nav-link" href="index.php?&Controller=Index&action=search">
                     <i class="fas fa-fw fa-table"></i>
                     <span>search</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.php?search=admin12&Controller=PDOhome&action=selectUser">
+                <a class="nav-link" href="index.php?search=admin12&Controller=Index&action=selectUser">
                     <i class="fas fa-fw fa-table"></i>
                     <span>ListUser</span></a>
                <li class="nav-item">
-                <a class="nav-link" href="index.php?Controller=PDOhome&action=inportCSV">
+                <a class="nav-link" href="index.php?Controller=Index&action=inportCSV">
                     <i class="fas fa-fw fa-table"></i>
                     <span>InportCSV</span></a>
             </li>
              
                <li class="nav-item">
-                <a class="nav-link" href="index.php?&Controller=PDOhome&action=sendmail">
+                <a class="nav-link" href="index.php?&Controller=Index&action=sendmail">
                 <i class="fas fa-fw fa-table"></i>
                 <span>SendMail</span></a>
             </li>
               
                <li class="nav-item">
-                <a class="nav-link" href="index.php?&Controller=PDOhome&action=demoAjax">
+                <a class="nav-link" href="index.php?&Controller=Index&action=demoAjax">
                     <span class="icon add"></span>
                     <i class="fas fa-fw fa-table"></i>
                     <span>formData</span></a>
             </li>
                 <li class="nav-item">
-                <a class="nav-link" href="index.php?&Controller=PDOhome&action=searchJS">
+                <a class="nav-link" href="index.php?&Controller=Index&action=searchJS">
                     <span class="icon add"></span>
                     <i class="fas fa-fw fa-table"></i>
                     <span>searchJS</span></a>
@@ -128,9 +127,7 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-                 <?php 
-        require_once './views/pages/template/page/'.$data["page"].'.php';
-    ?>
+                 <?php require_once './views/pages/template/page/'.$data["page"].'.php';?>
                 </div>
                 <!-- End of Main Content -->
 
@@ -187,12 +184,9 @@
         <script src="./public/js/jquery-ui.js"></script>
         <script src="./public/js/ckeditor1/ckeditor.js"></script>
         <script src="./public/js/ckfinder/ckfinder.js"></script>
-        <script >
-            var editor1 = CKEDITOR.replace( 'ckediter' );
-            CKFinder.setupCKEditor( editor1 );
-        </script>
-
-
+        <script src="./public/js/ckeditorProcessing/ckeditorProcessing.js" ></script>
+         <script src="./public/js/books/books.js"></script>
+        
 
         
 </body>
