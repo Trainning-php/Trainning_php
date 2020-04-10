@@ -10,6 +10,7 @@
     <meta name="author" content="">
 
      <title>SB Admin 2 - Dashboard</title>
+      <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="/resources/demos/style.css">
     <link href="./public/css/jquery-ui.css" rel="stylesheet" type="text/css">
     <link href="./public/css/all.min.css" rel="stylesheet" type="text/css">
@@ -88,6 +89,18 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>searchJS</span></a>
             </li>
+                    <li class="nav-item">
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+                            <i class="fas fa-fw fa-folder"></i>
+                            <span>Index</span>
+                            </a>
+                        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="Controller=Index&action=wordWithJsonpAction">JSONP</a>
+                        <a class="collapse-item" href="index.php?Controller=Index&action=wordCkediterAction">ckeditor</a>
+                    </div>
+                </div>
+            </li>
         </ul>
         <!-- End of Sidebar -->
 
@@ -121,6 +134,7 @@
                                 </form>
                             </div>
                         </li>
+
                     </ul>
                 </nav>
                 <!-- End of Topbar -->

@@ -8,22 +8,24 @@ $(document).ready(function(){
     }else{
         $.ajax(
         {
-          url: "index.php?&controller=PDOhome&action=searchJS",
-          method:"POST",
-          dataType:"JSON",
-          data:{id:id},
-          success:function(data){
-            $("#table_data").css("display","block");
-            $("#data_name").text(data.name);
-            $("#data_password").text(data.password);
-            $("#data_email").text(data.email);
+            url: "index.php?&controller=PDOhome&action=searchJS",
+            method:"POST",
+            dataType:"JSON",
+            data:{id:id},
+            success:function(data){
+                $("#table_data").css("display","block");
+                $("#data_name").text(data.name);
+                $("#data_password").text(data.password);
+                $("#data_email").text(data.email);
            }
         });
       }
   });
-  $('#datepicker').click(function(){
-    $( function() {
-        $( "#datepicker" ).datepicker({dateFormat:'dd/mm/yy'});
+    $('#datepicker').click(function(){
+        $( function() {
+            $( "#datepicker" ).datepicker({dateFormat:'dd/mm/yy'});
+        });
     });
-  });
+    
+    
 });

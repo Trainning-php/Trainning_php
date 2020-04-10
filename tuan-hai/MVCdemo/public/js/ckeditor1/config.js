@@ -32,6 +32,7 @@ CKEDITOR.editorConfig = function( config ) {
 
 	// Set the most common block elements.
 	config.format_tags = 'p;h1;h2;h3;pre';
+	config.format_h1 = { element: 'h1', attributes: { 'class': 'editorTitle1' } };
 
 	// Simplify the dialog windows.
 	config.removeDialogTabs = 'image:advanced;link:advanced';

@@ -88,6 +88,18 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>searchJS</span></a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+                <i class="fas fa-fw fa-folder"></i>
+                <span>Index</span>
+                </a>
+                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="index.php?Controller=Index&action=wordWithJsonpAction">JSONP</a>
+                        <a class="collapse-item" href="index.php?Controller=Index&action=wordCkediterAction">ckeditor</a>
+                    </div>
+                </div>
+            </li>
         </ul>
         <!-- End of Sidebar -->
 
@@ -121,6 +133,7 @@
                                 </form>
                             </div>
                         </li>
+                
                     </ul>
                 </nav>
                 <!-- End of Topbar -->
@@ -185,7 +198,10 @@
         <script src="./public/js/ckeditor1/ckeditor.js"></script>
         <script src="./public/js/ckfinder/ckfinder.js"></script>
         <script src="./public/js/ckeditorProcessing/ckeditorProcessing.js" ></script>
-         <script src="./public/js/books/books.js"></script>
+        <script src="./public/js/books/books.js"></script>
+        <script src="https://api.github.com/users/jeresig?callback=handleResponse">
+          
+        </script>
         
 
         

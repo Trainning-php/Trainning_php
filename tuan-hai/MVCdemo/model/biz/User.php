@@ -14,10 +14,14 @@
         public function getlistUser(){
             return $this->dbUsers->getList();
         }
+
         public function getlistBook(){
-             $fields=["name","title","images"];
-          return $this->dbUsers->getListBooks('name','',null,[]);
+            $fields=["name","title","images"];
+            return $this->dbUsers->getListBooks('name','',null,[]);
         }
-        
+
+        public function insertData($data){
+            return $this->dbUsers->insert($data);
+        }
     }
  ?>
