@@ -5,6 +5,9 @@ $(document).ready(function(){
             url:'https://api.github.com/users/jeresig',
             dataType:'jsonp',
             jsonpCallback:'handleResponse',
+            success:function(response){
+                console.log(response);
+            }
         });
     });
 });

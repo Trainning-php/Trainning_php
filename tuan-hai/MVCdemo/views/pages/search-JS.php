@@ -20,8 +20,8 @@
    	 <div class="table-responsive" id="table_data" style="display: none;">
    	   <table class=" table table-bordered">
    	   	<tr>
-   	   	  <td width="10%" align="right"><b>name</b></td>
-   	   	  <td width="90%"><span id="data_name"></span> </td>
+   	   	  <td width="10%" align="right" ><b>name</b></td>
+   	   	  <td width="90%"><span id="data_name" style="display: block;"></span> </td>
    	   	</tr>
    	   	<tr>
    	   	  <td width="10%" align="right"><b>password</b></td>

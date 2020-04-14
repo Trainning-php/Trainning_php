@@ -100,7 +100,7 @@ class PDOquery extends ConnectPDO
 
         public function selectByID($id)
         {
-            $query =  $this->sqlQuery."WHERE id = ?";
+            $query =  $this->sqlQuery." WHERE id = ?";
             return  self::querySql($query,[$id]);
         }
 

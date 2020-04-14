@@ -1,20 +1,24 @@
 $(document).ready(function(){
   $('#searchJs').click(function(){
     var id = $("#list_data").val();
-    console.log(id);
     if (id == '') {
-          alert("Please select data");
-          $("#table_data").css("display","none");
+        alert("Please select data");
+        $("#table_data").css("display","none");
     }else{
         $.ajax(
         {
-            url: "index.php?&controller=PDOhome&action=searchJS",
+            url: "index.php?&Controller=PDOhome&action=searchJS",
             method:"POST",
             dataType:"JSON",
-            data:{id:id},
+            data:{ id : id },
             success:function(data){
+                console.log(data);
                 $("#table_data").css("display","block");
-                $("#data_name").text(data.name);
+                if (data.name == null ) {
+                    $("#data_name").css("display","none");
+                }else{
+                    $("#data_name").text(data.name);
+                }
                 $("#data_password").text(data.password);
                 $("#data_email").text(data.email);
            }

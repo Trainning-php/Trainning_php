@@ -200,10 +200,11 @@ class PDOhomeController extends controller
         //search  su dung ajax json jquery
         public function searchJS()
         {
+            
             if (isset($_POST["id"])) 
             { 
                 $id    = $_POST["id"];
-                $data1 = [];//$this->modelUserPDO->selectId($id);
+                $data1 = $this->modelUserPDO->selectId($id);
                 
                 $data   =[];
                 foreach ($data1 as $key) 
