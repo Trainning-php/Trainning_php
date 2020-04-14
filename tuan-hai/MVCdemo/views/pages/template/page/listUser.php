@@ -13,7 +13,6 @@
 			<td><?php echo $value['name'] ?></td>
 			<td><?php echo $value['title'] ?></td>
 		</tr>
-		<?php echo $value['images'] ?>
 		<?php endforeach ?>
 	</tbody>
 </table>

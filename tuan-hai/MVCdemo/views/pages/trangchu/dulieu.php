@@ -59,51 +59,16 @@
     <div class="bg-circle-4 bg-circle"></div>
   </header>
 
- <!--  <section>
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 order-lg-2">
-          <div class="p-5">
-            <img class="img-fluid rounded-circle" src="./public/images/01.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-6 order-lg-1">
-          <div class="p-5">
-            <h2 class="display-4">For those about to rock...</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-<!--   <section>
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-          <div class="p-5">
-            <img class="img-fluid rounded-circle" src="./public/images/02.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="p-5">
-            <h2 class="display-4">We salute you!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-<?php foreach ($data["datas"] as $key => $values): ?>
   <section>
     <div class="container">
-      <div class="row align-items-center">
+    <div class="row align-items-center">
+        <?php foreach ($data["datas"] as $key => $values): ?>
         <div class="col-lg-6 order-lg-2">
-          <div class="p-5">
+            <div class="p-5">
             <!-- <img class="img-fluid rounded-circle" src="./public/images/03.jpg" alt="">
              -->
-             <?php echo $values['images']?>
-          </div>
+            <?php echo $values['images']?>
+            </div>
         </div>
        <!--  <div class="col-lg-6 order-lg-1">
           <div class="p-5">
@@ -111,10 +76,11 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
           </div>
         </div> -->
-      </div>
+        <?php endforeach ?>
+    </div>
     </div>
   </section>
-  <?php endforeach ?>
+ 
 
   <!-- Footer -->
   <footer class="py-5 bg-black">

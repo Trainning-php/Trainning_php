@@ -2,11 +2,11 @@
     /**
      * 
      */
-    require_once 'config/connect.php';
-    class Users_dbtable_Users extends ConnectPDO
+require_once 'config/connect.php';
+class Users_dbtable_Users extends ConnectPDO
     {
-            const TABLE_NAMES = 'books';
-    	    private $conn;
+        const TABLE_NAMES = 'books';
+        private $conn;
     	    function __construct()
     	    {
     	    	$conectdb    = new connectPDO(); 
@@ -33,13 +33,20 @@
                     foreach (array_keys($fields) as $index => $field) {
                     $whereStatement .= ($index === 0 ? " WHERE " : " OR ").$fields[$field]." LIKE '%".$keyword."%'" ;
                     }
-                    $sql .=$whereStatement;
+                    $sql .= $whereStatement;
                 }
                 if (null!== $id) {
                     $sql .= " ORDER BY ". $id." ASC";
                 }
                 
                 return $sql; 
+            }
+            public function update($table,$data){
+                $sql   =  ' UPDATE ' . $table;
+                $sql  .=  ' SET ';
+                $sql  .=  ' name = ? , title = ? , images = ? WHERE id = ?';
+            return  $stmt  = $this->conn->prepare($sql)->execute($data);
+                
             }
             public function insert($data){
                 $sql  = " INSERT INTO ".self::TABLE_NAMES;

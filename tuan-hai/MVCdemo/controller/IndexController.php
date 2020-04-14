@@ -22,7 +22,9 @@ class IndexController extends controller
 	public function showDataUserAction(){
 		$resultUser  = $this->modelUser->getlistUser();
 		$resultBooks = $this->modelUser->getlistBook();
-		var_dump($resultBooks);
+	 	$data = ['mai','mai','mai',52];
+		$updata      = $this->modelUser->updateData('books',$data);
+       
 		$this->views("user",[
             "page"        => "listUser",
             "selectUser"  => $resultUser,
@@ -33,14 +35,23 @@ class IndexController extends controller
 	public function wordCkediterAction(){
 		$data  = [];
 		if ( isset( $_POST['submit'] )) {
-			$name     = '';
-			$title    = 'anh';
+			$name     = $_POST['name'];
+			$title    = $_POST['title'];
 			$ckediter = $_POST['ckediter'];
 			$data     = [$name,$title,$ckediter];
-			$this->modelUser->insertData($data);
+		   	
 		} 
-		$this->views("user",[
-             "page"    => "wordCkeditor",
+		if (  $data == []  ) {
+
+		    $this->views("user",[
+            "page"    => "wordCkeditor",
+		    ]);
+		}else{
+			$this->modelUser->insertData($data);
+		}
+		var_dump($data);
+		    $this->views("user",[
+                "page"    => "wordCkeditor",
 		]);
 	}
 
