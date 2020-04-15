@@ -11,7 +11,7 @@ class controller
         require_once "./model/".$files."/".$model.".php";
         return new $model;
     }
-    
+
     // public function views( $views , $data = []) {
     //     require_once "./views/".$views.".php";
         //require_once './views/pages/template/'.$views.'.php';
@@ -19,7 +19,7 @@ class controller
 
     public function view($page,$views,$data = []){
 
-    	require_once './views/pages/'.$page.'/'.$views.'.php';
+    	require_once './views/'.$page.'/'.$views.'.php';
     }
 }
 ?>

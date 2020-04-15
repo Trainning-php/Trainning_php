@@ -24,7 +24,7 @@ class PDOhomeController extends controller
         
         public function selectUser() 
         {
-            $this ->views("Trangchu",[
+            $this ->view("","Trangchu",[
                 "pages" => "ListUserPDO",
                 "DT"    => $this->getAllUser,
             ]);

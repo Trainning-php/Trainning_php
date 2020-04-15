@@ -25,7 +25,7 @@ class IndexController extends controller
 	 	$data = ['mai','mai','mai',52];
 		$updata      = $this->modelUser->updateData('books',$data);
        
-		$this->views("user",[
+		$this->view("pages/template","user",[
             "page"        => "listUser",
             "selectUser"  => $resultUser,
             "selectBooks" => $resultBooks,
@@ -43,26 +43,26 @@ class IndexController extends controller
 		} 
 		if (  $data == []  ) {
 
-		    $this->views("template","user",[
+		    $this->view("pages/template","user",[
             "page"    => "wordCkeditor",
 		    ]);
 		}else{
 			$this->modelUser->insertData($data);
 		}
 		var_dump($data);
-		    $this->views("template","user",[
+		    $this->view("pages/template","user",[
                 "page"    => "wordCkeditor",
 		]);
 	}
 
 	public function wordWithJsonpAction(){
-		$this->view("template","user",[
+		$this->view("pages/template","user",[
 		    "page"  => "JsonpTemplate",
 		]);
 	}
 	
 	public function showData(){
-		 $this->view("trangchu","dulieu",[
+		 $this->view("pages/trangchu","dulieu",[
             "datas"    => $this->modelUser->getlistUser()   
         ]);
 	}
