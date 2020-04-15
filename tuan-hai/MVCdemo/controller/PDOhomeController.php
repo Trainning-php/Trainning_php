@@ -12,13 +12,16 @@ class PDOhomeController extends controller
 
 {
     private $modelUserPDO;
+    private $modelsUserPDO;
     private $getAllUser;
         function __construct()
         {
-            $this->modelUserPDO = $this->model('PDOuser');
+            $this->modelUserPDO = $this->models('','PDOuser');
             $this->getAllUser   = $this->modelUserPDO->getUser();
         }
+       
           // lấy ra danh sách user 
+        
         public function selectUser() 
         {
             $this ->views("Trangchu",[

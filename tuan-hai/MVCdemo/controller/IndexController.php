@@ -8,7 +8,7 @@ class IndexController extends controller
 	private $modelUser;
 	function __construct()
 	{
-		$this->modelUser = $this->model('User');
+		$this->modelUser = $this->models('biz','User');
 	}
 	// public function randomToken($numberkey){
 	// 	$array  = array('a','b','c','d','e','f',0,1,2,3,4,5,6,7,8,9);
@@ -43,20 +43,20 @@ class IndexController extends controller
 		} 
 		if (  $data == []  ) {
 
-		    $this->views("user",[
+		    $this->views("template","user",[
             "page"    => "wordCkeditor",
 		    ]);
 		}else{
 			$this->modelUser->insertData($data);
 		}
 		var_dump($data);
-		    $this->views("user",[
+		    $this->views("template","user",[
                 "page"    => "wordCkeditor",
 		]);
 	}
 
 	public function wordWithJsonpAction(){
-		$this->views("user",[
+		$this->view("template","user",[
 		    "page"  => "JsonpTemplate",
 		]);
 	}
