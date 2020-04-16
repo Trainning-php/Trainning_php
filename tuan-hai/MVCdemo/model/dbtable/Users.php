@@ -41,6 +41,7 @@ class Users_dbtable_Users extends ConnectPDO
                 
                 return $sql; 
             }
+            
             public function update($table,$data){
                 $sql   =  ' UPDATE ' . $table;
                 $sql  .=  ' SET ';
@@ -48,11 +49,13 @@ class Users_dbtable_Users extends ConnectPDO
             return  $stmt  = $this->conn->prepare($sql)->execute($data);
                 
             }
-            public function insert($data){
-                $sql  = " INSERT INTO ".self::TABLE_NAMES;
-                $sql .= " ( name , title , images ) VALUES ( ? , ? , ?)";
+
+            public function insert($table,$data,$values,$arrData){
+                $sql     = " INSERT INTO ".$table;
+                $sql    .=  $data  ;
+                $sql    .= " VALUES ".$values;
                 $result  = $this->conn->prepare($sql);
-                $result->execute($data);
+                $result->execute($arrData);
                 return $result ;
             }
     	

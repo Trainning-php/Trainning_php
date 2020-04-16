@@ -30,7 +30,7 @@
                         <td>
                             <?php echo $key['address'] ?>
                         </td>
-                        <td><a href="index.php?id=<?php echo $key['id'] ?>&controller=PDOhome&action=delete" class="XoaUser" target="#row-<?php echo $id?>">xoa</a></td>            
+                        <td><a href="index.php?id=<?php echo $key['id'] ?>&Controller=PDOhome&action=delete" class="XoaUser" target="#row-<?php echo $id?>">xoa</a></td>            
                     </tr>
               
                 <?php endforeach ?>
@@ -41,7 +41,7 @@
         <?php 
 			$a=5;
 			for ($i=1; $i <$a ; $i++) { 
-				echo '<a href="index.php?page='.$i.'&controller=PDOhome&action=selectUser "> '.' '.$i.' '.' </a>';
+				echo '<a href="index.php?page='.$i.'&Controller=PDOhome&action=selectUser "> '.' '.$i.' '.' </a>';
 			}
 		 ?> -->
     </div>

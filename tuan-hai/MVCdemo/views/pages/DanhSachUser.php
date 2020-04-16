@@ -18,8 +18,8 @@
                 <td>
                     <?php echo $key['password']; ?>
                 </td>
-                <td> <a href="index.php?controller=home&action=edit&id=<?php echo $key['id']?>">sua</a> </td>
-                <td><a href="index.php?controller=home&action=delete&id=<?php echo $key['id']?>">xoa</a> </td>
+                <td> <a href="index.php?Controller=home&action=edit&id=<?php echo $key['id']?>">sua</a> </td>
+                <td><a href="index.php?Controller=home&action=delete&id=<?php echo $key['id']?>">xoa</a> </td>
         </tbody>
         <?php endforeach ?>
 </table>

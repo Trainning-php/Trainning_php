@@ -41,15 +41,15 @@ class IndexController extends controller
 			$data     = [$name,$title,$ckediter];
 		   	
 		} 
-		if (  $data == []  ) {
+		if (  $data !== []  ) {
 
 		    $this->view("pages/template","user",[
-            "page"    => "wordCkeditor",
+                        "page"    => "wordCkeditor",
 		    ]);
 		}else{
-			$this->modelUser->insertData($data);
+			$this->modelUser
+			     ->insertData($data);
 		}
-		var_dump($data);
 		    $this->view("pages/template","user",[
                 "page"    => "wordCkeditor",
 		]);
@@ -62,8 +62,34 @@ class IndexController extends controller
 	}
 	
 	public function showData(){
-		 $this->view("pages/trangchu","dulieu",[
+		$this->view("pages/trangchu","dulieu",[
             "datas"    => $this->modelUser->getlistUser()   
+        ]);
+	}
+	public function insertDataAction(){
+		$arrData = [];
+		if (isset($_POST['submit'])) {
+			$username = $_POST['username'];
+			if ($_POST['password'] == null ) {
+			    $password = $_POST['password'];
+			}else{
+				$password=md5($_POST['password']);
+			}
+			$address  = $_POST['address'];
+			$email    = $_POST['email'];
+			$arrData  = [ $username , $password , $address , $email];
+		}
+
+		if (  $arrData !== []  ) {
+			  $this->view("","Trangchu",[
+                            "pages" =>"insertData",
+           ]);
+		}else
+		{
+            $this->modelUser->isertUsers($arrData);
+		}
+        $this->view("","Trangchu",[
+            "pages" =>"insertData",
         ]);
 	}
 	

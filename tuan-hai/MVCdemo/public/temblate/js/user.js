@@ -10,7 +10,7 @@ var user = {
         }else{
             $.ajax(
             { 
-                url:"index.php?&controller=PDOhome&action=demoAjax",
+                url:"index.php?&Controller=PDOhome&action=demoAjax",
                 method:"POST",
                 dataType:"JSON",
                 data:params,

@@ -28,7 +28,7 @@ include_once './public/curl1.php';
     }
  ?>
 
-<form action="index.php?controller=PDOhome&action=cURL" method="get" accept-charset="utf-8">
+<form action="index.php?Controller=PDOhome&action=cURL" method="get" accept-charset="utf-8">
    	    <p>Date: <input type="text" name="date" id="datepicker">
                  <input type="hidden" name="controller" value="PDOhome">
                  <input type="hidden" name="action" value="cURL">

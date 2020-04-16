@@ -63,14 +63,14 @@ class PDOhomeController extends controller
         public function search()
         {
             if (empty($_GET['search'])) {
-                $this->views("Trangchu", [
+                $this->view("","Trangchu", [
                     "pages"      => "search",
                     "DATA"       => $this->getAllUser,
                     "total"      => $this->modelUserPDO->TotalP()
                 ]);
             }else {
                 $keyword = $_GET['search'];
-                $this->views("Trangchu", [
+                $this->view("","Trangchu", [
                     "pages"      => "search",
                     "DATA"       => $this->modelUserPDO->searchUser($keyword),
                     "total"      => $this->modelUserPDO->TotalP(),
@@ -82,7 +82,7 @@ class PDOhomeController extends controller
         {
             if (empty($_GET['search'])) {
 
-                $this->views("Trangchu", [
+                $this->view("","Trangchu", [
                     "pages"      => "search",
                     "DATA"       => $this->getAllUser,
                     "total"      => $this->modelUserPDO->TotalP(),
@@ -92,6 +92,7 @@ class PDOhomeController extends controller
 
                 $keyword = $_GET['search'];
                 $data    = $this->modelUserPDO->searchUser($keyword);
+                
                 $openfile= fopen("DataSearch.csv","w")or die("Unable to open file!");
 
                     fputcsv($openfile , array('ID','USERNAME','PASSWORD','ADDRESS'));
@@ -99,7 +100,7 @@ class PDOhomeController extends controller
                             fputcsv($openfile,$key);
                         }
                     fclose($openfile);
-                $this->views("Trangchu", [
+                $this->view("","Trangchu", [
                     "pages"      => "search",
                     "DATA"       => $data ,
                     "total"      => $this->modelUserPDO->TotalP(),
@@ -109,7 +110,7 @@ class PDOhomeController extends controller
         // phân trang 
         public function inportCSV()
         {
-            $this->views("Trangchu",[
+            $this->view("","Trangchu",[
                 "pages"   =>"inportCSV",
             ]);
             if (isset($_POST['submit'])) {
@@ -160,7 +161,7 @@ class PDOhomeController extends controller
                 }
                 return;
             }
-            $this->views("Trangchu",[
+            $this->view("","Trangchu",[
                 "pages" => "login",
                 "error" => $error,
             ]);
@@ -195,7 +196,7 @@ class PDOhomeController extends controller
                     }
                     return;
             }            	 
-            $this->views("Trangchu",[
+            $this->view("","Trangchu",[
                "pages"  => "SendMail"
             ]);
  
@@ -219,7 +220,7 @@ class PDOhomeController extends controller
                 echo json_encode($data);
                 return;
             }
-            $this->views("Trangchu",[
+            $this->view("","Trangchu",[
    	            "pages"   => "search-JS",
    	            "dt"      => $this->getAllUser,
                 ]);
@@ -238,7 +239,7 @@ class PDOhomeController extends controller
                     return;
             }
         
-            $this->views("Trangchu",[
+            $this->view("","Trangchu",[
                 "pages" => "exampleAjax",
                 "dt"    => $this->getAllUser,
             ]);
@@ -270,7 +271,7 @@ class PDOhomeController extends controller
                 
             }
 
-            $this->views("Trangchu",[
+            $this->view("","Trangchu",[
                 "pages" =>"curlPost", 
             ]);
         }

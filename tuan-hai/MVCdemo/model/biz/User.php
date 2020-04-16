@@ -15,21 +15,40 @@
         }
 
         public function getlistUser(){
-            return $this->dbUsers->getList();
+
+            return $this->dbUsers
+                        ->getList();
         }
 
         public function getlistBook(){
-            $fields=["name","title","images"];
-            return $this->dbUsers->getListBooks('name','',null,[]);
+            $fields = [" name " , " title ", " images " ];
+
+            return $this->dbUsers
+                        ->getListBooks(' name ',' ', null , [] );
         }
 
-        public function insertData($data){
-            return $this->dbUsers->insert($data);
+        public function insertData($arrdata){
+            $table  = 'books';
+            $data   = " ( name , title , images ) ";
+            $values = " ( ? , ? , ? ) ";
+
+            return $this->dbUsers
+                        ->insert( $table , $data , $values , $arrdata);
         }
         public function updateData($table,$data){
-         return  $sql = $this->dbUsers->update($table,$data);
+         return  $this->dbUsers
+                             ->update($table,$data);
             //echo $sql;
         //return $this->dbUsers->update($table);
+        }
+        public function isertUsers($arrData){
+            
+            $table  = " user ";
+            $data   = " ( username , password , address , email ) ";
+            $values = " ( ? , ? , ? ,? ) ";
+
+            return  $this->dbUsers
+                         ->insert( $table , $data , $values , $arrData) ;
         }
     }
  ?>

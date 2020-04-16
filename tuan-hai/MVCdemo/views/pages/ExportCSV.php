@@ -36,7 +36,7 @@
         <div>
             <form action="" method="POST" >
                 <input type="submit" name="export" id="export" value="export">
-                 <input type="hidden" name="controller" value="PDOhome">
+                 <input type="hidden" name="Controller" value="PDOhome">
                  <input type="hidden" name="action" value="ExportCSV">
             </form>
         </div>

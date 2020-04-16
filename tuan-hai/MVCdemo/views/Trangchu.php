@@ -11,7 +11,6 @@
 
      <title>SB Admin 2 - Dashboard</title>
       <link rel="shortcut icon" href="#">
-    <link rel="stylesheet" href="/resources/demos/style.css">
     <link href="./public/css/jquery-ui.css" rel="stylesheet" type="text/css">
     <link href="./public/css/all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="./public/css/sb-admin-2.css">
@@ -89,17 +88,24 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>searchJS</span></a>
             </li>
-                    <li class="nav-item">
-                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-                            <i class="fas fa-fw fa-folder"></i>
-                            <span>Index</span>
-                            </a>
-                        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                        <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="Controller=Index&action=wordWithJsonpAction">JSONP</a>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+                <i class="fas fa-fw fa-folder"></i>
+                <span>Index</span>
+                </a>
+                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="index.php?Controller=Index&action=wordWithJsonpAction">JSONP</a>
                         <a class="collapse-item" href="index.php?Controller=Index&action=wordCkediterAction">ckeditor</a>
                     </div>
                 </div>
+            </li>
+             </li>
+                <li class="nav-item">
+                <a class="nav-link" href="index.php?&Controller=Index&action=insertDataAction">
+                    <span class="icon add"></span>
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>insertData</span></a>
             </li>
         </ul>
         <!-- End of Sidebar -->
